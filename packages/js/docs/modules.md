@@ -51,7 +51,7 @@
 
 ### makeCastAdd
 
-▸ **makeCastAdd**(`bodyJson`, `dataOptions`, `signer`): `HubAsyncResult`<`Readonly`<{ `_protobuf`: [`Message`](modules/protobufs.md#message) ; `data`: [`MessageData`](modules/types.md#messagedata)<[`CastAddBody`](modules/types.md#castaddbody), [`MESSAGE_TYPE_CAST_ADD`](enums/protobufs.MessageType.md#message_type_cast_add)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\>\>
+▸ **makeCastAdd**(`bodyJson`, `dataOptions`, `signer`)
 
 Make a message to add a cast
 
@@ -93,15 +93,11 @@ await client.submitMessage(cast._unsafeUnwrap());
 | `dataOptions` | `MessageDataOptions` |
 | `signer` | `Ed25519Signer` |
 
-#### Returns
-
-`HubAsyncResult`<`Readonly`<{ `_protobuf`: [`Message`](modules/protobufs.md#message) ; `data`: [`MessageData`](modules/types.md#messagedata)<[`CastAddBody`](modules/types.md#castaddbody), [`MESSAGE_TYPE_CAST_ADD`](enums/protobufs.MessageType.md#message_type_cast_add)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\>\>
-
 ___
 
 ### makeCastRemove
 
-▸ **makeCastRemove**(`bodyJson`, `dataOptions`, `signer`): `HubAsyncResult`<`Readonly`<{ `_protobuf`: [`Message`](modules/protobufs.md#message) ; `data`: [`MessageData`](modules/types.md#messagedata)<[`CastRemoveBody`](modules/types.md#castremovebody), [`MESSAGE_TYPE_CAST_REMOVE`](enums/protobufs.MessageType.md#message_type_cast_remove)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\>\>
+▸ **makeCastRemove**(`bodyJson`, `dataOptions`, `signer`)
 
 Make a message to remove a cast
 
@@ -144,15 +140,11 @@ await client.submitMessage(castRemove._unsafeUnwrap());
 | `dataOptions` | `MessageDataOptions` |
 | `signer` | `Ed25519Signer` |
 
-#### Returns
-
-`HubAsyncResult`<`Readonly`<{ `_protobuf`: [`Message`](modules/protobufs.md#message) ; `data`: [`MessageData`](modules/types.md#messagedata)<[`CastRemoveBody`](modules/types.md#castremovebody), [`MESSAGE_TYPE_CAST_REMOVE`](enums/protobufs.MessageType.md#message_type_cast_remove)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\>\>
-
 ___
 
 ### makeMessageHash
 
-▸ **makeMessageHash**(`messageData`): `HubAsyncResult`<`string`\>
+▸ **makeMessageHash**(`messageData`)
 
 TODO DOCS: description
 
@@ -175,17 +167,11 @@ await client.submitMessage(message)
 | :------ | :------ |
 | `messageData` | [`MessageData`](modules/types.md#messagedata)<[`MessageBody`](modules/types.md#messagebody), [`MessageType`](enums/protobufs.MessageType.md)\> |
 
-#### Returns
-
-`HubAsyncResult`<`string`\>
-
-...
-
 ___
 
 ### makeMessageWithSignature
 
-▸ **makeMessageWithSignature**(`messageData`, `signerOptions`, `signature`): `HubAsyncResult`<`Readonly`<{ `_protobuf`: [`Message`](modules/protobufs.md#message) ; `data`: [`MessageData`](modules/types.md#messagedata)<[`MessageBody`](modules/types.md#messagebody), [`MessageType`](enums/protobufs.MessageType.md)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\>\>
+▸ **makeMessageWithSignature**(`messageData`, `signerOptions`, `signature`)
 
 TODO DOCS: description
 
@@ -210,17 +196,11 @@ await client.submitMessage(message)
 | `signerOptions` | `MessageSignerOptions` |
 | `signature` | `string` |
 
-#### Returns
-
-`HubAsyncResult`<`Readonly`<{ `_protobuf`: [`Message`](modules/protobufs.md#message) ; `data`: [`MessageData`](modules/types.md#messagedata)<[`MessageBody`](modules/types.md#messagebody), [`MessageType`](enums/protobufs.MessageType.md)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\>\>
-
-...
-
 ___
 
 ### makeReactionAdd
 
-▸ **makeReactionAdd**(`bodyJson`, `dataOptions`, `signer`): `HubAsyncResult`<`Readonly`<{ `_protobuf`: [`Message`](modules/protobufs.md#message) ; `data`: [`MessageData`](modules/types.md#messagedata)<[`ReactionBody`](modules/types.md#reactionbody), [`MESSAGE_TYPE_REACTION_ADD`](enums/protobufs.MessageType.md#message_type_reaction_add)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\>\>
+▸ **makeReactionAdd**(`bodyJson`, `dataOptions`, `signer`)
 
 Make a message to react a cast (like or recast)
 
@@ -268,15 +248,11 @@ await client.submitMessage(like._unsafeUnwrap());
 | `dataOptions` | `MessageDataOptions` |
 | `signer` | `Ed25519Signer` |
 
-#### Returns
-
-`HubAsyncResult`<`Readonly`<{ `_protobuf`: [`Message`](modules/protobufs.md#message) ; `data`: [`MessageData`](modules/types.md#messagedata)<[`ReactionBody`](modules/types.md#reactionbody), [`MESSAGE_TYPE_REACTION_ADD`](enums/protobufs.MessageType.md#message_type_reaction_add)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\>\>
-
 ___
 
 ### makeReactionRemove
 
-▸ **makeReactionRemove**(`bodyJson`, `dataOptions`, `signer`): `HubAsyncResult`<`Readonly`<{ `_protobuf`: [`Message`](modules/protobufs.md#message) ; `data`: [`MessageData`](modules/types.md#messagedata)<[`ReactionBody`](modules/types.md#reactionbody), [`MESSAGE_TYPE_REACTION_REMOVE`](enums/protobufs.MessageType.md#message_type_reaction_remove)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\>\>
+▸ **makeReactionRemove**(`bodyJson`, `dataOptions`, `signer`)
 
 Make a message to undo a reaction to a cast (unlike or undo recast)
 
@@ -324,15 +300,11 @@ await client.submitMessage(unlike._unsafeUnwrap());
 | `dataOptions` | `MessageDataOptions` |
 | `signer` | `Ed25519Signer` |
 
-#### Returns
-
-`HubAsyncResult`<`Readonly`<{ `_protobuf`: [`Message`](modules/protobufs.md#message) ; `data`: [`MessageData`](modules/types.md#messagedata)<[`ReactionBody`](modules/types.md#reactionbody), [`MESSAGE_TYPE_REACTION_REMOVE`](enums/protobufs.MessageType.md#message_type_reaction_remove)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\>\>
-
 ___
 
 ### makeSignerAdd
 
-▸ **makeSignerAdd**(`bodyJson`, `dataOptions`, `signer`): `HubAsyncResult`<`Readonly`<{ `_protobuf`: [`Message`](modules/protobufs.md#message) ; `data`: [`MessageData`](modules/types.md#messagedata)<[`SignerBody`](modules/types.md#signerbody), [`MESSAGE_TYPE_SIGNER_ADD`](enums/protobufs.MessageType.md#message_type_signer_add)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\>\>
+▸ **makeSignerAdd**(`bodyJson`, `dataOptions`, `signer`)
 
 Make a message to add an EdDSA signer
 
@@ -377,15 +349,11 @@ await client.submitMessage(signerAdd._unsafeUnwrap());
 | `dataOptions` | `MessageDataOptions` |
 | `signer` | `Eip712Signer` |
 
-#### Returns
-
-`HubAsyncResult`<`Readonly`<{ `_protobuf`: [`Message`](modules/protobufs.md#message) ; `data`: [`MessageData`](modules/types.md#messagedata)<[`SignerBody`](modules/types.md#signerbody), [`MESSAGE_TYPE_SIGNER_ADD`](enums/protobufs.MessageType.md#message_type_signer_add)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\>\>
-
 ___
 
 ### makeSignerRemove
 
-▸ **makeSignerRemove**(`bodyJson`, `dataOptions`, `signer`): `HubAsyncResult`<`Readonly`<{ `_protobuf`: [`Message`](modules/protobufs.md#message) ; `data`: [`MessageData`](modules/types.md#messagedata)<[`SignerBody`](modules/types.md#signerbody), [`MESSAGE_TYPE_SIGNER_REMOVE`](enums/protobufs.MessageType.md#message_type_signer_remove)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\>\>
+▸ **makeSignerRemove**(`bodyJson`, `dataOptions`, `signer`)
 
 Make a message to remove an EdDSA signer
 
@@ -430,15 +398,11 @@ await client.submitMessage(signerRemove._unsafeUnwrap());
 | `dataOptions` | `MessageDataOptions` |
 | `signer` | `Eip712Signer` |
 
-#### Returns
-
-`HubAsyncResult`<`Readonly`<{ `_protobuf`: [`Message`](modules/protobufs.md#message) ; `data`: [`MessageData`](modules/types.md#messagedata)<[`SignerBody`](modules/types.md#signerbody), [`MESSAGE_TYPE_SIGNER_REMOVE`](enums/protobufs.MessageType.md#message_type_signer_remove)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\>\>
-
 ___
 
 ### makeUserDataAdd
 
-▸ **makeUserDataAdd**(`bodyJson`, `dataOptions`, `signer`): `HubAsyncResult`<`Readonly`<{ `_protobuf`: [`Message`](modules/protobufs.md#message) ; `data`: [`MessageData`](modules/types.md#messagedata)<[`UserDataBody`](modules/types.md#userdatabody), [`MESSAGE_TYPE_USER_DATA_ADD`](enums/protobufs.MessageType.md#message_type_user_data_add)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\>\>
+▸ **makeUserDataAdd**(`bodyJson`, `dataOptions`, `signer`)
 
 Make a message to set user data (pfp, bio, display name, etc)
 
@@ -484,15 +448,11 @@ await client.submitMessage(userDataPfpAdd._unsafeUnwrap());
 | `dataOptions` | `MessageDataOptions` |
 | `signer` | `Ed25519Signer` |
 
-#### Returns
-
-`HubAsyncResult`<`Readonly`<{ `_protobuf`: [`Message`](modules/protobufs.md#message) ; `data`: [`MessageData`](modules/types.md#messagedata)<[`UserDataBody`](modules/types.md#userdatabody), [`MESSAGE_TYPE_USER_DATA_ADD`](enums/protobufs.MessageType.md#message_type_user_data_add)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\>\>
-
 ___
 
 ### makeVerificationAddEthAddress
 
-▸ **makeVerificationAddEthAddress**(`bodyJson`, `dataOptions`, `signer`): `HubAsyncResult`<`Readonly`<{ `_protobuf`: [`Message`](modules/protobufs.md#message) ; `data`: [`MessageData`](modules/types.md#messagedata)<[`VerificationAddEthAddressBody`](modules/types.md#verificationaddethaddressbody), [`MESSAGE_TYPE_VERIFICATION_ADD_ETH_ADDRESS`](enums/protobufs.MessageType.md#message_type_verification_add_eth_address)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\>\>
+▸ **makeVerificationAddEthAddress**(`bodyJson`, `dataOptions`, `signer`)
 
 TODO DOCS: description
 
@@ -564,15 +524,11 @@ await client.submitMessage(verificationMessage._unsafeUnwrap());
 | `dataOptions` | `MessageDataOptions` |
 | `signer` | `Ed25519Signer` |
 
-#### Returns
-
-`HubAsyncResult`<`Readonly`<{ `_protobuf`: [`Message`](modules/protobufs.md#message) ; `data`: [`MessageData`](modules/types.md#messagedata)<[`VerificationAddEthAddressBody`](modules/types.md#verificationaddethaddressbody), [`MESSAGE_TYPE_VERIFICATION_ADD_ETH_ADDRESS`](enums/protobufs.MessageType.md#message_type_verification_add_eth_address)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\>\>
-
 ___
 
 ### makeVerificationRemove
 
-▸ **makeVerificationRemove**(`bodyJson`, `dataOptions`, `signer`): `HubAsyncResult`<`Readonly`<{ `_protobuf`: [`Message`](modules/protobufs.md#message) ; `data`: [`MessageData`](modules/types.md#messagedata)<[`VerificationRemoveBody`](modules/types.md#verificationremovebody), [`MESSAGE_TYPE_VERIFICATION_REMOVE`](enums/protobufs.MessageType.md#message_type_verification_remove)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\>\>
+▸ **makeVerificationRemove**(`bodyJson`, `dataOptions`, `signer`)
 
 TODO DOCS: description
 
@@ -634,7 +590,3 @@ await client.submitMessage(verificationRemoveMessage._unsafeUnwrap());
 | `bodyJson` | [`VerificationRemoveBody`](modules/types.md#verificationremovebody) |
 | `dataOptions` | `MessageDataOptions` |
 | `signer` | `Ed25519Signer` |
-
-#### Returns
-
-`HubAsyncResult`<`Readonly`<{ `_protobuf`: [`Message`](modules/protobufs.md#message) ; `data`: [`MessageData`](modules/types.md#messagedata)<[`VerificationRemoveBody`](modules/types.md#verificationremovebody), [`MESSAGE_TYPE_VERIFICATION_REMOVE`](enums/protobufs.MessageType.md#message_type_verification_remove)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\>\>
