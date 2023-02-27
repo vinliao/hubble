@@ -374,22 +374,22 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `service` | { `deleteAllMessagesFromDb`: { `path`: ``"/AdminService/DeleteAllMessagesFromDb"`` ; `requestDeserialize`: (`value`: `Buffer`) => Empty ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Empty ; `responseSerialize`: (`value`: [`Empty`](protobufs.md#empty)) => Buffer ; `responseStream`: ``false``  } ; `rebuildSyncTrie`: { `path`: ``"/AdminService/RebuildSyncTrie"`` ; `requestDeserialize`: (`value`: `Buffer`) => Empty ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Empty ; `responseSerialize`: (`value`: [`Empty`](protobufs.md#empty)) => Buffer ; `responseStream`: ``false``  }  } |
-| `service.deleteAllMessagesFromDb` | { `path`: ``"/AdminService/DeleteAllMessagesFromDb"`` ; `requestDeserialize`: (`value`: `Buffer`) => Empty ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Empty ; `responseSerialize`: (`value`: [`Empty`](protobufs.md#empty)) => Buffer ; `responseStream`: ``false``  } |
+| `service` | { `deleteAllMessagesFromDb`: { `path`: ``"/AdminService/DeleteAllMessagesFromDb"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Empty`](protobufs.md#empty)) =>  ; `responseStream`: ``false``  } ; `rebuildSyncTrie`: { `path`: ``"/AdminService/RebuildSyncTrie"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Empty`](protobufs.md#empty)) =>  ; `responseStream`: ``false``  }  } |
+| `service.deleteAllMessagesFromDb` | { `path`: ``"/AdminService/DeleteAllMessagesFromDb"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Empty`](protobufs.md#empty)) =>  ; `responseStream`: ``false``  } |
 | `service.deleteAllMessagesFromDb.path` | ``"/AdminService/DeleteAllMessagesFromDb"`` |
-| `service.deleteAllMessagesFromDb.requestDeserialize` | (`value`: `Buffer`) => Empty |
-| `service.deleteAllMessagesFromDb.requestSerialize` | (`value`: [`Empty`](protobufs.md#empty)) => Buffer |
+| `service.deleteAllMessagesFromDb.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.deleteAllMessagesFromDb.requestSerialize` | (`value`: [`Empty`](protobufs.md#empty)) =>  |
 | `service.deleteAllMessagesFromDb.requestStream` | ``false`` |
-| `service.deleteAllMessagesFromDb.responseDeserialize` | (`value`: `Buffer`) => Empty |
-| `service.deleteAllMessagesFromDb.responseSerialize` | (`value`: [`Empty`](protobufs.md#empty)) => Buffer |
+| `service.deleteAllMessagesFromDb.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.deleteAllMessagesFromDb.responseSerialize` | (`value`: [`Empty`](protobufs.md#empty)) =>  |
 | `service.deleteAllMessagesFromDb.responseStream` | ``false`` |
-| `service.rebuildSyncTrie` | { `path`: ``"/AdminService/RebuildSyncTrie"`` ; `requestDeserialize`: (`value`: `Buffer`) => Empty ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Empty ; `responseSerialize`: (`value`: [`Empty`](protobufs.md#empty)) => Buffer ; `responseStream`: ``false``  } |
+| `service.rebuildSyncTrie` | { `path`: ``"/AdminService/RebuildSyncTrie"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Empty`](protobufs.md#empty)) =>  ; `responseStream`: ``false``  } |
 | `service.rebuildSyncTrie.path` | ``"/AdminService/RebuildSyncTrie"`` |
-| `service.rebuildSyncTrie.requestDeserialize` | (`value`: `Buffer`) => Empty |
-| `service.rebuildSyncTrie.requestSerialize` | (`value`: [`Empty`](protobufs.md#empty)) => Buffer |
+| `service.rebuildSyncTrie.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.rebuildSyncTrie.requestSerialize` | (`value`: [`Empty`](protobufs.md#empty)) =>  |
 | `service.rebuildSyncTrie.requestStream` | ``false`` |
-| `service.rebuildSyncTrie.responseDeserialize` | (`value`: `Buffer`) => Empty |
-| `service.rebuildSyncTrie.responseSerialize` | (`value`: [`Empty`](protobufs.md#empty)) => Buffer |
+| `service.rebuildSyncTrie.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.rebuildSyncTrie.responseSerialize` | (`value`: [`Empty`](protobufs.md#empty)) =>  |
 | `service.rebuildSyncTrie.responseStream` | ``false`` |
 
 ___
@@ -402,21 +402,21 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `deleteAllMessagesFromDb` | { `path`: ``"/AdminService/DeleteAllMessagesFromDb"`` ; `requestDeserialize`: (`value`: `Buffer`) => Empty ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Empty ; `responseSerialize`: (`value`: [`Empty`](protobufs.md#empty)) => Buffer ; `responseStream`: ``false``  } |
+| `deleteAllMessagesFromDb` | { `path`: ``"/AdminService/DeleteAllMessagesFromDb"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Empty`](protobufs.md#empty)) =>  ; `responseStream`: ``false``  } |
 | `deleteAllMessagesFromDb.path` | ``"/AdminService/DeleteAllMessagesFromDb"`` |
-| `deleteAllMessagesFromDb.requestDeserialize` | (`value`: `Buffer`) => Empty |
-| `deleteAllMessagesFromDb.requestSerialize` | (`value`: [`Empty`](protobufs.md#empty)) => Buffer |
+| `deleteAllMessagesFromDb.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `deleteAllMessagesFromDb.requestSerialize` | (`value`: [`Empty`](protobufs.md#empty)) =>  |
 | `deleteAllMessagesFromDb.requestStream` | ``false`` |
-| `deleteAllMessagesFromDb.responseDeserialize` | (`value`: `Buffer`) => Empty |
-| `deleteAllMessagesFromDb.responseSerialize` | (`value`: [`Empty`](protobufs.md#empty)) => Buffer |
+| `deleteAllMessagesFromDb.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `deleteAllMessagesFromDb.responseSerialize` | (`value`: [`Empty`](protobufs.md#empty)) =>  |
 | `deleteAllMessagesFromDb.responseStream` | ``false`` |
-| `rebuildSyncTrie` | { `path`: ``"/AdminService/RebuildSyncTrie"`` ; `requestDeserialize`: (`value`: `Buffer`) => Empty ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Empty ; `responseSerialize`: (`value`: [`Empty`](protobufs.md#empty)) => Buffer ; `responseStream`: ``false``  } |
+| `rebuildSyncTrie` | { `path`: ``"/AdminService/RebuildSyncTrie"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Empty`](protobufs.md#empty)) =>  ; `responseStream`: ``false``  } |
 | `rebuildSyncTrie.path` | ``"/AdminService/RebuildSyncTrie"`` |
-| `rebuildSyncTrie.requestDeserialize` | (`value`: `Buffer`) => Empty |
-| `rebuildSyncTrie.requestSerialize` | (`value`: [`Empty`](protobufs.md#empty)) => Buffer |
+| `rebuildSyncTrie.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `rebuildSyncTrie.requestSerialize` | (`value`: [`Empty`](protobufs.md#empty)) =>  |
 | `rebuildSyncTrie.requestStream` | ``false`` |
-| `rebuildSyncTrie.responseDeserialize` | (`value`: `Buffer`) => Empty |
-| `rebuildSyncTrie.responseSerialize` | (`value`: [`Empty`](protobufs.md#empty)) => Buffer |
+| `rebuildSyncTrie.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `rebuildSyncTrie.responseSerialize` | (`value`: [`Empty`](protobufs.md#empty)) =>  |
 | `rebuildSyncTrie.responseStream` | ``false`` |
 
 ___
@@ -429,12 +429,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => CastAddBody |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => CastAddBody |
-| `encode` | (`message`: [`CastAddBody`](protobufs.md#castaddbody), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => CastAddBody |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => CastAddBody |
-| `toJSON` | (`message`: [`CastAddBody`](protobufs.md#castaddbody)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`CastAddBody`](protobufs.md#castaddbody), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`CastAddBody`](protobufs.md#castaddbody)) =>  |
 
 ___
 
@@ -446,12 +446,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => CastId |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => CastId |
-| `encode` | (`message`: [`CastId`](protobufs.md#castid), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => CastId |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => CastId |
-| `toJSON` | (`message`: [`CastId`](protobufs.md#castid)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`CastId`](protobufs.md#castid), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`CastId`](protobufs.md#castid)) =>  |
 
 ___
 
@@ -463,12 +463,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => CastRemoveBody |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => CastRemoveBody |
-| `encode` | (`message`: [`CastRemoveBody`](protobufs.md#castremovebody), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => CastRemoveBody |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => CastRemoveBody |
-| `toJSON` | (`message`: [`CastRemoveBody`](protobufs.md#castremovebody)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`CastRemoveBody`](protobufs.md#castremovebody), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`CastRemoveBody`](protobufs.md#castremovebody)) =>  |
 
 ___
 
@@ -480,12 +480,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => ContactInfoContent |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => ContactInfoContent |
-| `encode` | (`message`: [`ContactInfoContent`](protobufs.md#contactinfocontent), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => ContactInfoContent |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => ContactInfoContent |
-| `toJSON` | (`message`: [`ContactInfoContent`](protobufs.md#contactinfocontent)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`ContactInfoContent`](protobufs.md#contactinfocontent), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`ContactInfoContent`](protobufs.md#contactinfocontent)) =>  |
 
 ___
 
@@ -497,12 +497,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => DbTrieNode |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => DbTrieNode |
-| `encode` | (`message`: [`DbTrieNode`](protobufs.md#dbtrienode), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => DbTrieNode |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => DbTrieNode |
-| `toJSON` | (`message`: [`DbTrieNode`](protobufs.md#dbtrienode)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`DbTrieNode`](protobufs.md#dbtrienode), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`DbTrieNode`](protobufs.md#dbtrienode)) =>  |
 
 ___
 
@@ -514,12 +514,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => Empty |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => Empty |
-| `encode` | (`_`: [`Empty`](protobufs.md#empty), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`_`: `any`) => Empty |
-| `fromPartial` | <I_1\>(`_`: `I_1`) => Empty |
-| `toJSON` | (`_`: [`Empty`](protobufs.md#empty)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`_`: [`Empty`](protobufs.md#empty), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`_`: `any`) =>  |
+| `fromPartial` | <I_1\>(`_`: `I_1`) =>  |
+| `toJSON` | (`_`: [`Empty`](protobufs.md#empty)) =>  |
 
 ___
 
@@ -531,12 +531,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => EventRequest |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => EventRequest |
-| `encode` | (`message`: [`EventRequest`](protobufs.md#eventrequest), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => EventRequest |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => EventRequest |
-| `toJSON` | (`message`: [`EventRequest`](protobufs.md#eventrequest)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`EventRequest`](protobufs.md#eventrequest), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`EventRequest`](protobufs.md#eventrequest)) =>  |
 
 ___
 
@@ -548,12 +548,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => FidRequest |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => FidRequest |
-| `encode` | (`message`: [`FidRequest`](protobufs.md#fidrequest), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => FidRequest |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => FidRequest |
-| `toJSON` | (`message`: [`FidRequest`](protobufs.md#fidrequest)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`FidRequest`](protobufs.md#fidrequest), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`FidRequest`](protobufs.md#fidrequest)) =>  |
 
 ___
 
@@ -565,12 +565,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => FidsResponse |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => FidsResponse |
-| `encode` | (`message`: [`FidsResponse`](protobufs.md#fidsresponse), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => FidsResponse |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => FidsResponse |
-| `toJSON` | (`message`: [`FidsResponse`](protobufs.md#fidsresponse)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`FidsResponse`](protobufs.md#fidsresponse), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`FidsResponse`](protobufs.md#fidsresponse)) =>  |
 
 ___
 
@@ -582,12 +582,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => GossipAddressInfo |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => GossipAddressInfo |
-| `encode` | (`message`: [`GossipAddressInfo`](protobufs.md#gossipaddressinfo), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => GossipAddressInfo |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => GossipAddressInfo |
-| `toJSON` | (`message`: [`GossipAddressInfo`](protobufs.md#gossipaddressinfo)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`GossipAddressInfo`](protobufs.md#gossipaddressinfo), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`GossipAddressInfo`](protobufs.md#gossipaddressinfo)) =>  |
 
 ___
 
@@ -599,12 +599,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => GossipMessage |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => GossipMessage |
-| `encode` | (`message`: [`GossipMessage`](protobufs.md#gossipmessage), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => GossipMessage |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => GossipMessage |
-| `toJSON` | (`message`: [`GossipMessage`](protobufs.md#gossipmessage)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`GossipMessage`](protobufs.md#gossipmessage), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`GossipMessage`](protobufs.md#gossipmessage)) =>  |
 
 ___
 
@@ -616,12 +616,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => HubEvent |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => HubEvent |
-| `encode` | (`message`: [`HubEvent`](protobufs.md#hubevent), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => HubEvent |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => HubEvent |
-| `toJSON` | (`message`: [`HubEvent`](protobufs.md#hubevent)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`HubEvent`](protobufs.md#hubevent), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`HubEvent`](protobufs.md#hubevent)) =>  |
 
 ___
 
@@ -633,12 +633,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => HubInfoResponse |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => HubInfoResponse |
-| `encode` | (`message`: [`HubInfoResponse`](protobufs.md#hubinforesponse), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => HubInfoResponse |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => HubInfoResponse |
-| `toJSON` | (`message`: [`HubInfoResponse`](protobufs.md#hubinforesponse)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`HubInfoResponse`](protobufs.md#hubinforesponse), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`HubInfoResponse`](protobufs.md#hubinforesponse)) =>  |
 
 ___
 
@@ -666,254 +666,254 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `service` | { `getAllCastMessagesByFid`: { `path`: ``"/HubService/GetAllCastMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } ; `getAllMessagesBySyncIds`: { `path`: ``"/HubService/GetAllMessagesBySyncIds"`` ; `requestDeserialize`: (`value`: `Buffer`) => SyncIds ; `requestSerialize`: (`value`: [`SyncIds`](protobufs.md#syncids)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } ; `getAllReactionMessagesByFid`: { `path`: ``"/HubService/GetAllReactionMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } ; `getAllSignerMessagesByFid`: { `path`: ``"/HubService/GetAllSignerMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } ; `getAllSyncIdsByPrefix`: { `path`: ``"/HubService/GetAllSyncIdsByPrefix"`` ; `requestDeserialize`: (`value`: `Buffer`) => TrieNodePrefix ; `requestSerialize`: (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => SyncIds ; `responseSerialize`: (`value`: [`SyncIds`](protobufs.md#syncids)) => Buffer ; `responseStream`: ``false``  } ; `getAllUserDataMessagesByFid`: { `path`: ``"/HubService/GetAllUserDataMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } ; `getAllVerificationMessagesByFid`: { `path`: ``"/HubService/GetAllVerificationMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } ; `getCast`: { `path`: ``"/HubService/GetCast"`` ; `requestDeserialize`: (`value`: `Buffer`) => CastId ; `requestSerialize`: (`value`: [`CastId`](protobufs.md#castid)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Message ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `responseStream`: ``false``  } ; `getCastsByFid`: { `path`: ``"/HubService/GetCastsByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } ; `getCastsByMention`: { `path`: ``"/HubService/GetCastsByMention"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } ; `getCastsByParent`: { `path`: ``"/HubService/GetCastsByParent"`` ; `requestDeserialize`: (`value`: `Buffer`) => CastId ; `requestSerialize`: (`value`: [`CastId`](protobufs.md#castid)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } ; `getEvent`: { `path`: ``"/HubService/GetEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) => EventRequest ; `requestSerialize`: (`value`: [`EventRequest`](protobufs.md#eventrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => HubEvent ; `responseSerialize`: (`value`: [`HubEvent`](protobufs.md#hubevent)) => Buffer ; `responseStream`: ``false``  } ; `getFids`: { `path`: ``"/HubService/GetFids"`` ; `requestDeserialize`: (`value`: `Buffer`) => Empty ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => FidsResponse ; `responseSerialize`: (`value`: [`FidsResponse`](protobufs.md#fidsresponse)) => Buffer ; `responseStream`: ``false``  } ; `getIdRegistryEvent`: { `path`: ``"/HubService/GetIdRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => IdRegistryEvent ; `responseSerialize`: (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) => Buffer ; `responseStream`: ``false``  } ; `getInfo`: { `path`: ``"/HubService/GetInfo"`` ; `requestDeserialize`: (`value`: `Buffer`) => Empty ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => HubInfoResponse ; `responseSerialize`: (`value`: [`HubInfoResponse`](protobufs.md#hubinforesponse)) => Buffer ; `responseStream`: ``false``  } ; `getNameRegistryEvent`: { `path`: ``"/HubService/GetNameRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) => NameRegistryEventRequest ; `requestSerialize`: (`value`: [`NameRegistryEventRequest`](protobufs.md#nameregistryeventrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => NameRegistryEvent ; `responseSerialize`: (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) => Buffer ; `responseStream`: ``false``  } ; `getReaction`: { `path`: ``"/HubService/GetReaction"`` ; `requestDeserialize`: (`value`: `Buffer`) => ReactionRequest ; `requestSerialize`: (`value`: [`ReactionRequest`](protobufs.md#reactionrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Message ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `responseStream`: ``false``  } ; `getReactionsByCast`: { `path`: ``"/HubService/GetReactionsByCast"`` ; `requestDeserialize`: (`value`: `Buffer`) => ReactionsByCastRequest ; `requestSerialize`: (`value`: [`ReactionsByCastRequest`](protobufs.md#reactionsbycastrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } ; `getReactionsByFid`: { `path`: ``"/HubService/GetReactionsByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => ReactionsByFidRequest ; `requestSerialize`: (`value`: [`ReactionsByFidRequest`](protobufs.md#reactionsbyfidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } ; `getSigner`: { `path`: ``"/HubService/GetSigner"`` ; `requestDeserialize`: (`value`: `Buffer`) => SignerRequest ; `requestSerialize`: (`value`: [`SignerRequest`](protobufs.md#signerrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Message ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `responseStream`: ``false``  } ; `getSignersByFid`: { `path`: ``"/HubService/GetSignersByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } ; `getSyncMetadataByPrefix`: { `path`: ``"/HubService/GetSyncMetadataByPrefix"`` ; `requestDeserialize`: (`value`: `Buffer`) => TrieNodePrefix ; `requestSerialize`: (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => TrieNodeMetadataResponse ; `responseSerialize`: (`value`: [`TrieNodeMetadataResponse`](protobufs.md#trienodemetadataresponse)) => Buffer ; `responseStream`: ``false``  } ; `getSyncSnapshotByPrefix`: { `path`: ``"/HubService/GetSyncSnapshotByPrefix"`` ; `requestDeserialize`: (`value`: `Buffer`) => TrieNodePrefix ; `requestSerialize`: (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => TrieNodeSnapshotResponse ; `responseSerialize`: (`value`: [`TrieNodeSnapshotResponse`](protobufs.md#trienodesnapshotresponse)) => Buffer ; `responseStream`: ``false``  } ; `getUserData`: { `path`: ``"/HubService/GetUserData"`` ; `requestDeserialize`: (`value`: `Buffer`) => UserDataRequest ; `requestSerialize`: (`value`: [`UserDataRequest`](protobufs.md#userdatarequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Message ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `responseStream`: ``false``  } ; `getUserDataByFid`: { `path`: ``"/HubService/GetUserDataByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } ; `getVerification`: { `path`: ``"/HubService/GetVerification"`` ; `requestDeserialize`: (`value`: `Buffer`) => VerificationRequest ; `requestSerialize`: (`value`: [`VerificationRequest`](protobufs.md#verificationrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Message ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `responseStream`: ``false``  } ; `getVerificationsByFid`: { `path`: ``"/HubService/GetVerificationsByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } ; `submitIdRegistryEvent`: { `path`: ``"/HubService/SubmitIdRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) => IdRegistryEvent ; `requestSerialize`: (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => IdRegistryEvent ; `responseSerialize`: (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) => Buffer ; `responseStream`: ``false``  } ; `submitMessage`: { `path`: ``"/HubService/SubmitMessage"`` ; `requestDeserialize`: (`value`: `Buffer`) => Message ; `requestSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Message ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `responseStream`: ``false``  } ; `submitNameRegistryEvent`: { `path`: ``"/HubService/SubmitNameRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) => NameRegistryEvent ; `requestSerialize`: (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => NameRegistryEvent ; `responseSerialize`: (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) => Buffer ; `responseStream`: ``false``  } ; `subscribe`: { `path`: ``"/HubService/Subscribe"`` ; `requestDeserialize`: (`value`: `Buffer`) => SubscribeRequest ; `requestSerialize`: (`value`: [`SubscribeRequest`](protobufs.md#subscriberequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => HubEvent ; `responseSerialize`: (`value`: [`HubEvent`](protobufs.md#hubevent)) => Buffer ; `responseStream`: ``true``  }  } |
-| `service.getAllCastMessagesByFid` | { `path`: ``"/HubService/GetAllCastMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } |
+| `service` | { `getAllCastMessagesByFid`: { `path`: ``"/HubService/GetAllCastMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } ; `getAllMessagesBySyncIds`: { `path`: ``"/HubService/GetAllMessagesBySyncIds"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`SyncIds`](protobufs.md#syncids)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } ; `getAllReactionMessagesByFid`: { `path`: ``"/HubService/GetAllReactionMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } ; `getAllSignerMessagesByFid`: { `path`: ``"/HubService/GetAllSignerMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } ; `getAllSyncIdsByPrefix`: { `path`: ``"/HubService/GetAllSyncIdsByPrefix"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`SyncIds`](protobufs.md#syncids)) =>  ; `responseStream`: ``false``  } ; `getAllUserDataMessagesByFid`: { `path`: ``"/HubService/GetAllUserDataMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } ; `getAllVerificationMessagesByFid`: { `path`: ``"/HubService/GetAllVerificationMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } ; `getCast`: { `path`: ``"/HubService/GetCast"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`CastId`](protobufs.md#castid)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `responseStream`: ``false``  } ; `getCastsByFid`: { `path`: ``"/HubService/GetCastsByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } ; `getCastsByMention`: { `path`: ``"/HubService/GetCastsByMention"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } ; `getCastsByParent`: { `path`: ``"/HubService/GetCastsByParent"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`CastId`](protobufs.md#castid)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } ; `getEvent`: { `path`: ``"/HubService/GetEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`EventRequest`](protobufs.md#eventrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`HubEvent`](protobufs.md#hubevent)) =>  ; `responseStream`: ``false``  } ; `getFids`: { `path`: ``"/HubService/GetFids"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`FidsResponse`](protobufs.md#fidsresponse)) =>  ; `responseStream`: ``false``  } ; `getIdRegistryEvent`: { `path`: ``"/HubService/GetIdRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) =>  ; `responseStream`: ``false``  } ; `getInfo`: { `path`: ``"/HubService/GetInfo"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`HubInfoResponse`](protobufs.md#hubinforesponse)) =>  ; `responseStream`: ``false``  } ; `getNameRegistryEvent`: { `path`: ``"/HubService/GetNameRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`NameRegistryEventRequest`](protobufs.md#nameregistryeventrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) =>  ; `responseStream`: ``false``  } ; `getReaction`: { `path`: ``"/HubService/GetReaction"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`ReactionRequest`](protobufs.md#reactionrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `responseStream`: ``false``  } ; `getReactionsByCast`: { `path`: ``"/HubService/GetReactionsByCast"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`ReactionsByCastRequest`](protobufs.md#reactionsbycastrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } ; `getReactionsByFid`: { `path`: ``"/HubService/GetReactionsByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`ReactionsByFidRequest`](protobufs.md#reactionsbyfidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } ; `getSigner`: { `path`: ``"/HubService/GetSigner"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`SignerRequest`](protobufs.md#signerrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `responseStream`: ``false``  } ; `getSignersByFid`: { `path`: ``"/HubService/GetSignersByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } ; `getSyncMetadataByPrefix`: { `path`: ``"/HubService/GetSyncMetadataByPrefix"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`TrieNodeMetadataResponse`](protobufs.md#trienodemetadataresponse)) =>  ; `responseStream`: ``false``  } ; `getSyncSnapshotByPrefix`: { `path`: ``"/HubService/GetSyncSnapshotByPrefix"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`TrieNodeSnapshotResponse`](protobufs.md#trienodesnapshotresponse)) =>  ; `responseStream`: ``false``  } ; `getUserData`: { `path`: ``"/HubService/GetUserData"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`UserDataRequest`](protobufs.md#userdatarequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `responseStream`: ``false``  } ; `getUserDataByFid`: { `path`: ``"/HubService/GetUserDataByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } ; `getVerification`: { `path`: ``"/HubService/GetVerification"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`VerificationRequest`](protobufs.md#verificationrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `responseStream`: ``false``  } ; `getVerificationsByFid`: { `path`: ``"/HubService/GetVerificationsByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } ; `submitIdRegistryEvent`: { `path`: ``"/HubService/SubmitIdRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) =>  ; `responseStream`: ``false``  } ; `submitMessage`: { `path`: ``"/HubService/SubmitMessage"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `responseStream`: ``false``  } ; `submitNameRegistryEvent`: { `path`: ``"/HubService/SubmitNameRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) =>  ; `responseStream`: ``false``  } ; `subscribe`: { `path`: ``"/HubService/Subscribe"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`SubscribeRequest`](protobufs.md#subscriberequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`HubEvent`](protobufs.md#hubevent)) =>  ; `responseStream`: ``true``  }  } |
+| `service.getAllCastMessagesByFid` | { `path`: ``"/HubService/GetAllCastMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } |
 | `service.getAllCastMessagesByFid.path` | ``"/HubService/GetAllCastMessagesByFid"`` |
-| `service.getAllCastMessagesByFid.requestDeserialize` | (`value`: `Buffer`) => FidRequest |
-| `service.getAllCastMessagesByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer |
+| `service.getAllCastMessagesByFid.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getAllCastMessagesByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  |
 | `service.getAllCastMessagesByFid.requestStream` | ``false`` |
-| `service.getAllCastMessagesByFid.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse |
-| `service.getAllCastMessagesByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer |
+| `service.getAllCastMessagesByFid.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getAllCastMessagesByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  |
 | `service.getAllCastMessagesByFid.responseStream` | ``false`` |
-| `service.getAllMessagesBySyncIds` | { `path`: ``"/HubService/GetAllMessagesBySyncIds"`` ; `requestDeserialize`: (`value`: `Buffer`) => SyncIds ; `requestSerialize`: (`value`: [`SyncIds`](protobufs.md#syncids)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getAllMessagesBySyncIds` | { `path`: ``"/HubService/GetAllMessagesBySyncIds"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`SyncIds`](protobufs.md#syncids)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } |
 | `service.getAllMessagesBySyncIds.path` | ``"/HubService/GetAllMessagesBySyncIds"`` |
-| `service.getAllMessagesBySyncIds.requestDeserialize` | (`value`: `Buffer`) => SyncIds |
-| `service.getAllMessagesBySyncIds.requestSerialize` | (`value`: [`SyncIds`](protobufs.md#syncids)) => Buffer |
+| `service.getAllMessagesBySyncIds.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getAllMessagesBySyncIds.requestSerialize` | (`value`: [`SyncIds`](protobufs.md#syncids)) =>  |
 | `service.getAllMessagesBySyncIds.requestStream` | ``false`` |
-| `service.getAllMessagesBySyncIds.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse |
-| `service.getAllMessagesBySyncIds.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer |
+| `service.getAllMessagesBySyncIds.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getAllMessagesBySyncIds.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  |
 | `service.getAllMessagesBySyncIds.responseStream` | ``false`` |
-| `service.getAllReactionMessagesByFid` | { `path`: ``"/HubService/GetAllReactionMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getAllReactionMessagesByFid` | { `path`: ``"/HubService/GetAllReactionMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } |
 | `service.getAllReactionMessagesByFid.path` | ``"/HubService/GetAllReactionMessagesByFid"`` |
-| `service.getAllReactionMessagesByFid.requestDeserialize` | (`value`: `Buffer`) => FidRequest |
-| `service.getAllReactionMessagesByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer |
+| `service.getAllReactionMessagesByFid.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getAllReactionMessagesByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  |
 | `service.getAllReactionMessagesByFid.requestStream` | ``false`` |
-| `service.getAllReactionMessagesByFid.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse |
-| `service.getAllReactionMessagesByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer |
+| `service.getAllReactionMessagesByFid.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getAllReactionMessagesByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  |
 | `service.getAllReactionMessagesByFid.responseStream` | ``false`` |
-| `service.getAllSignerMessagesByFid` | { `path`: ``"/HubService/GetAllSignerMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getAllSignerMessagesByFid` | { `path`: ``"/HubService/GetAllSignerMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } |
 | `service.getAllSignerMessagesByFid.path` | ``"/HubService/GetAllSignerMessagesByFid"`` |
-| `service.getAllSignerMessagesByFid.requestDeserialize` | (`value`: `Buffer`) => FidRequest |
-| `service.getAllSignerMessagesByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer |
+| `service.getAllSignerMessagesByFid.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getAllSignerMessagesByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  |
 | `service.getAllSignerMessagesByFid.requestStream` | ``false`` |
-| `service.getAllSignerMessagesByFid.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse |
-| `service.getAllSignerMessagesByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer |
+| `service.getAllSignerMessagesByFid.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getAllSignerMessagesByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  |
 | `service.getAllSignerMessagesByFid.responseStream` | ``false`` |
-| `service.getAllSyncIdsByPrefix` | { `path`: ``"/HubService/GetAllSyncIdsByPrefix"`` ; `requestDeserialize`: (`value`: `Buffer`) => TrieNodePrefix ; `requestSerialize`: (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => SyncIds ; `responseSerialize`: (`value`: [`SyncIds`](protobufs.md#syncids)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getAllSyncIdsByPrefix` | { `path`: ``"/HubService/GetAllSyncIdsByPrefix"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`SyncIds`](protobufs.md#syncids)) =>  ; `responseStream`: ``false``  } |
 | `service.getAllSyncIdsByPrefix.path` | ``"/HubService/GetAllSyncIdsByPrefix"`` |
-| `service.getAllSyncIdsByPrefix.requestDeserialize` | (`value`: `Buffer`) => TrieNodePrefix |
-| `service.getAllSyncIdsByPrefix.requestSerialize` | (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) => Buffer |
+| `service.getAllSyncIdsByPrefix.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getAllSyncIdsByPrefix.requestSerialize` | (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) =>  |
 | `service.getAllSyncIdsByPrefix.requestStream` | ``false`` |
-| `service.getAllSyncIdsByPrefix.responseDeserialize` | (`value`: `Buffer`) => SyncIds |
-| `service.getAllSyncIdsByPrefix.responseSerialize` | (`value`: [`SyncIds`](protobufs.md#syncids)) => Buffer |
+| `service.getAllSyncIdsByPrefix.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getAllSyncIdsByPrefix.responseSerialize` | (`value`: [`SyncIds`](protobufs.md#syncids)) =>  |
 | `service.getAllSyncIdsByPrefix.responseStream` | ``false`` |
-| `service.getAllUserDataMessagesByFid` | { `path`: ``"/HubService/GetAllUserDataMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getAllUserDataMessagesByFid` | { `path`: ``"/HubService/GetAllUserDataMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } |
 | `service.getAllUserDataMessagesByFid.path` | ``"/HubService/GetAllUserDataMessagesByFid"`` |
-| `service.getAllUserDataMessagesByFid.requestDeserialize` | (`value`: `Buffer`) => FidRequest |
-| `service.getAllUserDataMessagesByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer |
+| `service.getAllUserDataMessagesByFid.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getAllUserDataMessagesByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  |
 | `service.getAllUserDataMessagesByFid.requestStream` | ``false`` |
-| `service.getAllUserDataMessagesByFid.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse |
-| `service.getAllUserDataMessagesByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer |
+| `service.getAllUserDataMessagesByFid.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getAllUserDataMessagesByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  |
 | `service.getAllUserDataMessagesByFid.responseStream` | ``false`` |
-| `service.getAllVerificationMessagesByFid` | { `path`: ``"/HubService/GetAllVerificationMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getAllVerificationMessagesByFid` | { `path`: ``"/HubService/GetAllVerificationMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } |
 | `service.getAllVerificationMessagesByFid.path` | ``"/HubService/GetAllVerificationMessagesByFid"`` |
-| `service.getAllVerificationMessagesByFid.requestDeserialize` | (`value`: `Buffer`) => FidRequest |
-| `service.getAllVerificationMessagesByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer |
+| `service.getAllVerificationMessagesByFid.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getAllVerificationMessagesByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  |
 | `service.getAllVerificationMessagesByFid.requestStream` | ``false`` |
-| `service.getAllVerificationMessagesByFid.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse |
-| `service.getAllVerificationMessagesByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer |
+| `service.getAllVerificationMessagesByFid.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getAllVerificationMessagesByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  |
 | `service.getAllVerificationMessagesByFid.responseStream` | ``false`` |
-| `service.getCast` | { `path`: ``"/HubService/GetCast"`` ; `requestDeserialize`: (`value`: `Buffer`) => CastId ; `requestSerialize`: (`value`: [`CastId`](protobufs.md#castid)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Message ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getCast` | { `path`: ``"/HubService/GetCast"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`CastId`](protobufs.md#castid)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `responseStream`: ``false``  } |
 | `service.getCast.path` | ``"/HubService/GetCast"`` |
-| `service.getCast.requestDeserialize` | (`value`: `Buffer`) => CastId |
-| `service.getCast.requestSerialize` | (`value`: [`CastId`](protobufs.md#castid)) => Buffer |
+| `service.getCast.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getCast.requestSerialize` | (`value`: [`CastId`](protobufs.md#castid)) =>  |
 | `service.getCast.requestStream` | ``false`` |
-| `service.getCast.responseDeserialize` | (`value`: `Buffer`) => Message |
-| `service.getCast.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) => Buffer |
+| `service.getCast.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getCast.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) =>  |
 | `service.getCast.responseStream` | ``false`` |
-| `service.getCastsByFid` | { `path`: ``"/HubService/GetCastsByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getCastsByFid` | { `path`: ``"/HubService/GetCastsByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } |
 | `service.getCastsByFid.path` | ``"/HubService/GetCastsByFid"`` |
-| `service.getCastsByFid.requestDeserialize` | (`value`: `Buffer`) => FidRequest |
-| `service.getCastsByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer |
+| `service.getCastsByFid.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getCastsByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  |
 | `service.getCastsByFid.requestStream` | ``false`` |
-| `service.getCastsByFid.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse |
-| `service.getCastsByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer |
+| `service.getCastsByFid.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getCastsByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  |
 | `service.getCastsByFid.responseStream` | ``false`` |
-| `service.getCastsByMention` | { `path`: ``"/HubService/GetCastsByMention"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getCastsByMention` | { `path`: ``"/HubService/GetCastsByMention"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } |
 | `service.getCastsByMention.path` | ``"/HubService/GetCastsByMention"`` |
-| `service.getCastsByMention.requestDeserialize` | (`value`: `Buffer`) => FidRequest |
-| `service.getCastsByMention.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer |
+| `service.getCastsByMention.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getCastsByMention.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  |
 | `service.getCastsByMention.requestStream` | ``false`` |
-| `service.getCastsByMention.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse |
-| `service.getCastsByMention.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer |
+| `service.getCastsByMention.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getCastsByMention.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  |
 | `service.getCastsByMention.responseStream` | ``false`` |
-| `service.getCastsByParent` | { `path`: ``"/HubService/GetCastsByParent"`` ; `requestDeserialize`: (`value`: `Buffer`) => CastId ; `requestSerialize`: (`value`: [`CastId`](protobufs.md#castid)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getCastsByParent` | { `path`: ``"/HubService/GetCastsByParent"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`CastId`](protobufs.md#castid)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } |
 | `service.getCastsByParent.path` | ``"/HubService/GetCastsByParent"`` |
-| `service.getCastsByParent.requestDeserialize` | (`value`: `Buffer`) => CastId |
-| `service.getCastsByParent.requestSerialize` | (`value`: [`CastId`](protobufs.md#castid)) => Buffer |
+| `service.getCastsByParent.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getCastsByParent.requestSerialize` | (`value`: [`CastId`](protobufs.md#castid)) =>  |
 | `service.getCastsByParent.requestStream` | ``false`` |
-| `service.getCastsByParent.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse |
-| `service.getCastsByParent.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer |
+| `service.getCastsByParent.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getCastsByParent.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  |
 | `service.getCastsByParent.responseStream` | ``false`` |
-| `service.getEvent` | { `path`: ``"/HubService/GetEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) => EventRequest ; `requestSerialize`: (`value`: [`EventRequest`](protobufs.md#eventrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => HubEvent ; `responseSerialize`: (`value`: [`HubEvent`](protobufs.md#hubevent)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getEvent` | { `path`: ``"/HubService/GetEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`EventRequest`](protobufs.md#eventrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`HubEvent`](protobufs.md#hubevent)) =>  ; `responseStream`: ``false``  } |
 | `service.getEvent.path` | ``"/HubService/GetEvent"`` |
-| `service.getEvent.requestDeserialize` | (`value`: `Buffer`) => EventRequest |
-| `service.getEvent.requestSerialize` | (`value`: [`EventRequest`](protobufs.md#eventrequest)) => Buffer |
+| `service.getEvent.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getEvent.requestSerialize` | (`value`: [`EventRequest`](protobufs.md#eventrequest)) =>  |
 | `service.getEvent.requestStream` | ``false`` |
-| `service.getEvent.responseDeserialize` | (`value`: `Buffer`) => HubEvent |
-| `service.getEvent.responseSerialize` | (`value`: [`HubEvent`](protobufs.md#hubevent)) => Buffer |
+| `service.getEvent.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getEvent.responseSerialize` | (`value`: [`HubEvent`](protobufs.md#hubevent)) =>  |
 | `service.getEvent.responseStream` | ``false`` |
-| `service.getFids` | { `path`: ``"/HubService/GetFids"`` ; `requestDeserialize`: (`value`: `Buffer`) => Empty ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => FidsResponse ; `responseSerialize`: (`value`: [`FidsResponse`](protobufs.md#fidsresponse)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getFids` | { `path`: ``"/HubService/GetFids"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`FidsResponse`](protobufs.md#fidsresponse)) =>  ; `responseStream`: ``false``  } |
 | `service.getFids.path` | ``"/HubService/GetFids"`` |
-| `service.getFids.requestDeserialize` | (`value`: `Buffer`) => Empty |
-| `service.getFids.requestSerialize` | (`value`: [`Empty`](protobufs.md#empty)) => Buffer |
+| `service.getFids.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getFids.requestSerialize` | (`value`: [`Empty`](protobufs.md#empty)) =>  |
 | `service.getFids.requestStream` | ``false`` |
-| `service.getFids.responseDeserialize` | (`value`: `Buffer`) => FidsResponse |
-| `service.getFids.responseSerialize` | (`value`: [`FidsResponse`](protobufs.md#fidsresponse)) => Buffer |
+| `service.getFids.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getFids.responseSerialize` | (`value`: [`FidsResponse`](protobufs.md#fidsresponse)) =>  |
 | `service.getFids.responseStream` | ``false`` |
-| `service.getIdRegistryEvent` | { `path`: ``"/HubService/GetIdRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => IdRegistryEvent ; `responseSerialize`: (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getIdRegistryEvent` | { `path`: ``"/HubService/GetIdRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) =>  ; `responseStream`: ``false``  } |
 | `service.getIdRegistryEvent.path` | ``"/HubService/GetIdRegistryEvent"`` |
-| `service.getIdRegistryEvent.requestDeserialize` | (`value`: `Buffer`) => FidRequest |
-| `service.getIdRegistryEvent.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer |
+| `service.getIdRegistryEvent.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getIdRegistryEvent.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  |
 | `service.getIdRegistryEvent.requestStream` | ``false`` |
-| `service.getIdRegistryEvent.responseDeserialize` | (`value`: `Buffer`) => IdRegistryEvent |
-| `service.getIdRegistryEvent.responseSerialize` | (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) => Buffer |
+| `service.getIdRegistryEvent.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getIdRegistryEvent.responseSerialize` | (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) =>  |
 | `service.getIdRegistryEvent.responseStream` | ``false`` |
-| `service.getInfo` | { `path`: ``"/HubService/GetInfo"`` ; `requestDeserialize`: (`value`: `Buffer`) => Empty ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => HubInfoResponse ; `responseSerialize`: (`value`: [`HubInfoResponse`](protobufs.md#hubinforesponse)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getInfo` | { `path`: ``"/HubService/GetInfo"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`HubInfoResponse`](protobufs.md#hubinforesponse)) =>  ; `responseStream`: ``false``  } |
 | `service.getInfo.path` | ``"/HubService/GetInfo"`` |
-| `service.getInfo.requestDeserialize` | (`value`: `Buffer`) => Empty |
-| `service.getInfo.requestSerialize` | (`value`: [`Empty`](protobufs.md#empty)) => Buffer |
+| `service.getInfo.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getInfo.requestSerialize` | (`value`: [`Empty`](protobufs.md#empty)) =>  |
 | `service.getInfo.requestStream` | ``false`` |
-| `service.getInfo.responseDeserialize` | (`value`: `Buffer`) => HubInfoResponse |
-| `service.getInfo.responseSerialize` | (`value`: [`HubInfoResponse`](protobufs.md#hubinforesponse)) => Buffer |
+| `service.getInfo.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getInfo.responseSerialize` | (`value`: [`HubInfoResponse`](protobufs.md#hubinforesponse)) =>  |
 | `service.getInfo.responseStream` | ``false`` |
-| `service.getNameRegistryEvent` | { `path`: ``"/HubService/GetNameRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) => NameRegistryEventRequest ; `requestSerialize`: (`value`: [`NameRegistryEventRequest`](protobufs.md#nameregistryeventrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => NameRegistryEvent ; `responseSerialize`: (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getNameRegistryEvent` | { `path`: ``"/HubService/GetNameRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`NameRegistryEventRequest`](protobufs.md#nameregistryeventrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) =>  ; `responseStream`: ``false``  } |
 | `service.getNameRegistryEvent.path` | ``"/HubService/GetNameRegistryEvent"`` |
-| `service.getNameRegistryEvent.requestDeserialize` | (`value`: `Buffer`) => NameRegistryEventRequest |
-| `service.getNameRegistryEvent.requestSerialize` | (`value`: [`NameRegistryEventRequest`](protobufs.md#nameregistryeventrequest)) => Buffer |
+| `service.getNameRegistryEvent.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getNameRegistryEvent.requestSerialize` | (`value`: [`NameRegistryEventRequest`](protobufs.md#nameregistryeventrequest)) =>  |
 | `service.getNameRegistryEvent.requestStream` | ``false`` |
-| `service.getNameRegistryEvent.responseDeserialize` | (`value`: `Buffer`) => NameRegistryEvent |
-| `service.getNameRegistryEvent.responseSerialize` | (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) => Buffer |
+| `service.getNameRegistryEvent.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getNameRegistryEvent.responseSerialize` | (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) =>  |
 | `service.getNameRegistryEvent.responseStream` | ``false`` |
-| `service.getReaction` | { `path`: ``"/HubService/GetReaction"`` ; `requestDeserialize`: (`value`: `Buffer`) => ReactionRequest ; `requestSerialize`: (`value`: [`ReactionRequest`](protobufs.md#reactionrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Message ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getReaction` | { `path`: ``"/HubService/GetReaction"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`ReactionRequest`](protobufs.md#reactionrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `responseStream`: ``false``  } |
 | `service.getReaction.path` | ``"/HubService/GetReaction"`` |
-| `service.getReaction.requestDeserialize` | (`value`: `Buffer`) => ReactionRequest |
-| `service.getReaction.requestSerialize` | (`value`: [`ReactionRequest`](protobufs.md#reactionrequest)) => Buffer |
+| `service.getReaction.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getReaction.requestSerialize` | (`value`: [`ReactionRequest`](protobufs.md#reactionrequest)) =>  |
 | `service.getReaction.requestStream` | ``false`` |
-| `service.getReaction.responseDeserialize` | (`value`: `Buffer`) => Message |
-| `service.getReaction.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) => Buffer |
+| `service.getReaction.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getReaction.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) =>  |
 | `service.getReaction.responseStream` | ``false`` |
-| `service.getReactionsByCast` | { `path`: ``"/HubService/GetReactionsByCast"`` ; `requestDeserialize`: (`value`: `Buffer`) => ReactionsByCastRequest ; `requestSerialize`: (`value`: [`ReactionsByCastRequest`](protobufs.md#reactionsbycastrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getReactionsByCast` | { `path`: ``"/HubService/GetReactionsByCast"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`ReactionsByCastRequest`](protobufs.md#reactionsbycastrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } |
 | `service.getReactionsByCast.path` | ``"/HubService/GetReactionsByCast"`` |
-| `service.getReactionsByCast.requestDeserialize` | (`value`: `Buffer`) => ReactionsByCastRequest |
-| `service.getReactionsByCast.requestSerialize` | (`value`: [`ReactionsByCastRequest`](protobufs.md#reactionsbycastrequest)) => Buffer |
+| `service.getReactionsByCast.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getReactionsByCast.requestSerialize` | (`value`: [`ReactionsByCastRequest`](protobufs.md#reactionsbycastrequest)) =>  |
 | `service.getReactionsByCast.requestStream` | ``false`` |
-| `service.getReactionsByCast.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse |
-| `service.getReactionsByCast.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer |
+| `service.getReactionsByCast.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getReactionsByCast.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  |
 | `service.getReactionsByCast.responseStream` | ``false`` |
-| `service.getReactionsByFid` | { `path`: ``"/HubService/GetReactionsByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => ReactionsByFidRequest ; `requestSerialize`: (`value`: [`ReactionsByFidRequest`](protobufs.md#reactionsbyfidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getReactionsByFid` | { `path`: ``"/HubService/GetReactionsByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`ReactionsByFidRequest`](protobufs.md#reactionsbyfidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } |
 | `service.getReactionsByFid.path` | ``"/HubService/GetReactionsByFid"`` |
-| `service.getReactionsByFid.requestDeserialize` | (`value`: `Buffer`) => ReactionsByFidRequest |
-| `service.getReactionsByFid.requestSerialize` | (`value`: [`ReactionsByFidRequest`](protobufs.md#reactionsbyfidrequest)) => Buffer |
+| `service.getReactionsByFid.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getReactionsByFid.requestSerialize` | (`value`: [`ReactionsByFidRequest`](protobufs.md#reactionsbyfidrequest)) =>  |
 | `service.getReactionsByFid.requestStream` | ``false`` |
-| `service.getReactionsByFid.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse |
-| `service.getReactionsByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer |
+| `service.getReactionsByFid.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getReactionsByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  |
 | `service.getReactionsByFid.responseStream` | ``false`` |
-| `service.getSigner` | { `path`: ``"/HubService/GetSigner"`` ; `requestDeserialize`: (`value`: `Buffer`) => SignerRequest ; `requestSerialize`: (`value`: [`SignerRequest`](protobufs.md#signerrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Message ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getSigner` | { `path`: ``"/HubService/GetSigner"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`SignerRequest`](protobufs.md#signerrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `responseStream`: ``false``  } |
 | `service.getSigner.path` | ``"/HubService/GetSigner"`` |
-| `service.getSigner.requestDeserialize` | (`value`: `Buffer`) => SignerRequest |
-| `service.getSigner.requestSerialize` | (`value`: [`SignerRequest`](protobufs.md#signerrequest)) => Buffer |
+| `service.getSigner.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getSigner.requestSerialize` | (`value`: [`SignerRequest`](protobufs.md#signerrequest)) =>  |
 | `service.getSigner.requestStream` | ``false`` |
-| `service.getSigner.responseDeserialize` | (`value`: `Buffer`) => Message |
-| `service.getSigner.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) => Buffer |
+| `service.getSigner.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getSigner.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) =>  |
 | `service.getSigner.responseStream` | ``false`` |
-| `service.getSignersByFid` | { `path`: ``"/HubService/GetSignersByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getSignersByFid` | { `path`: ``"/HubService/GetSignersByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } |
 | `service.getSignersByFid.path` | ``"/HubService/GetSignersByFid"`` |
-| `service.getSignersByFid.requestDeserialize` | (`value`: `Buffer`) => FidRequest |
-| `service.getSignersByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer |
+| `service.getSignersByFid.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getSignersByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  |
 | `service.getSignersByFid.requestStream` | ``false`` |
-| `service.getSignersByFid.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse |
-| `service.getSignersByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer |
+| `service.getSignersByFid.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getSignersByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  |
 | `service.getSignersByFid.responseStream` | ``false`` |
-| `service.getSyncMetadataByPrefix` | { `path`: ``"/HubService/GetSyncMetadataByPrefix"`` ; `requestDeserialize`: (`value`: `Buffer`) => TrieNodePrefix ; `requestSerialize`: (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => TrieNodeMetadataResponse ; `responseSerialize`: (`value`: [`TrieNodeMetadataResponse`](protobufs.md#trienodemetadataresponse)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getSyncMetadataByPrefix` | { `path`: ``"/HubService/GetSyncMetadataByPrefix"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`TrieNodeMetadataResponse`](protobufs.md#trienodemetadataresponse)) =>  ; `responseStream`: ``false``  } |
 | `service.getSyncMetadataByPrefix.path` | ``"/HubService/GetSyncMetadataByPrefix"`` |
-| `service.getSyncMetadataByPrefix.requestDeserialize` | (`value`: `Buffer`) => TrieNodePrefix |
-| `service.getSyncMetadataByPrefix.requestSerialize` | (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) => Buffer |
+| `service.getSyncMetadataByPrefix.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getSyncMetadataByPrefix.requestSerialize` | (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) =>  |
 | `service.getSyncMetadataByPrefix.requestStream` | ``false`` |
-| `service.getSyncMetadataByPrefix.responseDeserialize` | (`value`: `Buffer`) => TrieNodeMetadataResponse |
-| `service.getSyncMetadataByPrefix.responseSerialize` | (`value`: [`TrieNodeMetadataResponse`](protobufs.md#trienodemetadataresponse)) => Buffer |
+| `service.getSyncMetadataByPrefix.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getSyncMetadataByPrefix.responseSerialize` | (`value`: [`TrieNodeMetadataResponse`](protobufs.md#trienodemetadataresponse)) =>  |
 | `service.getSyncMetadataByPrefix.responseStream` | ``false`` |
-| `service.getSyncSnapshotByPrefix` | { `path`: ``"/HubService/GetSyncSnapshotByPrefix"`` ; `requestDeserialize`: (`value`: `Buffer`) => TrieNodePrefix ; `requestSerialize`: (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => TrieNodeSnapshotResponse ; `responseSerialize`: (`value`: [`TrieNodeSnapshotResponse`](protobufs.md#trienodesnapshotresponse)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getSyncSnapshotByPrefix` | { `path`: ``"/HubService/GetSyncSnapshotByPrefix"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`TrieNodeSnapshotResponse`](protobufs.md#trienodesnapshotresponse)) =>  ; `responseStream`: ``false``  } |
 | `service.getSyncSnapshotByPrefix.path` | ``"/HubService/GetSyncSnapshotByPrefix"`` |
-| `service.getSyncSnapshotByPrefix.requestDeserialize` | (`value`: `Buffer`) => TrieNodePrefix |
-| `service.getSyncSnapshotByPrefix.requestSerialize` | (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) => Buffer |
+| `service.getSyncSnapshotByPrefix.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getSyncSnapshotByPrefix.requestSerialize` | (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) =>  |
 | `service.getSyncSnapshotByPrefix.requestStream` | ``false`` |
-| `service.getSyncSnapshotByPrefix.responseDeserialize` | (`value`: `Buffer`) => TrieNodeSnapshotResponse |
-| `service.getSyncSnapshotByPrefix.responseSerialize` | (`value`: [`TrieNodeSnapshotResponse`](protobufs.md#trienodesnapshotresponse)) => Buffer |
+| `service.getSyncSnapshotByPrefix.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getSyncSnapshotByPrefix.responseSerialize` | (`value`: [`TrieNodeSnapshotResponse`](protobufs.md#trienodesnapshotresponse)) =>  |
 | `service.getSyncSnapshotByPrefix.responseStream` | ``false`` |
-| `service.getUserData` | { `path`: ``"/HubService/GetUserData"`` ; `requestDeserialize`: (`value`: `Buffer`) => UserDataRequest ; `requestSerialize`: (`value`: [`UserDataRequest`](protobufs.md#userdatarequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Message ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getUserData` | { `path`: ``"/HubService/GetUserData"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`UserDataRequest`](protobufs.md#userdatarequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `responseStream`: ``false``  } |
 | `service.getUserData.path` | ``"/HubService/GetUserData"`` |
-| `service.getUserData.requestDeserialize` | (`value`: `Buffer`) => UserDataRequest |
-| `service.getUserData.requestSerialize` | (`value`: [`UserDataRequest`](protobufs.md#userdatarequest)) => Buffer |
+| `service.getUserData.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getUserData.requestSerialize` | (`value`: [`UserDataRequest`](protobufs.md#userdatarequest)) =>  |
 | `service.getUserData.requestStream` | ``false`` |
-| `service.getUserData.responseDeserialize` | (`value`: `Buffer`) => Message |
-| `service.getUserData.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) => Buffer |
+| `service.getUserData.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getUserData.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) =>  |
 | `service.getUserData.responseStream` | ``false`` |
-| `service.getUserDataByFid` | { `path`: ``"/HubService/GetUserDataByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getUserDataByFid` | { `path`: ``"/HubService/GetUserDataByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } |
 | `service.getUserDataByFid.path` | ``"/HubService/GetUserDataByFid"`` |
-| `service.getUserDataByFid.requestDeserialize` | (`value`: `Buffer`) => FidRequest |
-| `service.getUserDataByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer |
+| `service.getUserDataByFid.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getUserDataByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  |
 | `service.getUserDataByFid.requestStream` | ``false`` |
-| `service.getUserDataByFid.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse |
-| `service.getUserDataByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer |
+| `service.getUserDataByFid.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getUserDataByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  |
 | `service.getUserDataByFid.responseStream` | ``false`` |
-| `service.getVerification` | { `path`: ``"/HubService/GetVerification"`` ; `requestDeserialize`: (`value`: `Buffer`) => VerificationRequest ; `requestSerialize`: (`value`: [`VerificationRequest`](protobufs.md#verificationrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Message ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getVerification` | { `path`: ``"/HubService/GetVerification"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`VerificationRequest`](protobufs.md#verificationrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `responseStream`: ``false``  } |
 | `service.getVerification.path` | ``"/HubService/GetVerification"`` |
-| `service.getVerification.requestDeserialize` | (`value`: `Buffer`) => VerificationRequest |
-| `service.getVerification.requestSerialize` | (`value`: [`VerificationRequest`](protobufs.md#verificationrequest)) => Buffer |
+| `service.getVerification.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getVerification.requestSerialize` | (`value`: [`VerificationRequest`](protobufs.md#verificationrequest)) =>  |
 | `service.getVerification.requestStream` | ``false`` |
-| `service.getVerification.responseDeserialize` | (`value`: `Buffer`) => Message |
-| `service.getVerification.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) => Buffer |
+| `service.getVerification.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getVerification.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) =>  |
 | `service.getVerification.responseStream` | ``false`` |
-| `service.getVerificationsByFid` | { `path`: ``"/HubService/GetVerificationsByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } |
+| `service.getVerificationsByFid` | { `path`: ``"/HubService/GetVerificationsByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } |
 | `service.getVerificationsByFid.path` | ``"/HubService/GetVerificationsByFid"`` |
-| `service.getVerificationsByFid.requestDeserialize` | (`value`: `Buffer`) => FidRequest |
-| `service.getVerificationsByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer |
+| `service.getVerificationsByFid.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getVerificationsByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  |
 | `service.getVerificationsByFid.requestStream` | ``false`` |
-| `service.getVerificationsByFid.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse |
-| `service.getVerificationsByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer |
+| `service.getVerificationsByFid.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.getVerificationsByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  |
 | `service.getVerificationsByFid.responseStream` | ``false`` |
-| `service.submitIdRegistryEvent` | { `path`: ``"/HubService/SubmitIdRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) => IdRegistryEvent ; `requestSerialize`: (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => IdRegistryEvent ; `responseSerialize`: (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) => Buffer ; `responseStream`: ``false``  } |
+| `service.submitIdRegistryEvent` | { `path`: ``"/HubService/SubmitIdRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) =>  ; `responseStream`: ``false``  } |
 | `service.submitIdRegistryEvent.path` | ``"/HubService/SubmitIdRegistryEvent"`` |
-| `service.submitIdRegistryEvent.requestDeserialize` | (`value`: `Buffer`) => IdRegistryEvent |
-| `service.submitIdRegistryEvent.requestSerialize` | (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) => Buffer |
+| `service.submitIdRegistryEvent.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.submitIdRegistryEvent.requestSerialize` | (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) =>  |
 | `service.submitIdRegistryEvent.requestStream` | ``false`` |
-| `service.submitIdRegistryEvent.responseDeserialize` | (`value`: `Buffer`) => IdRegistryEvent |
-| `service.submitIdRegistryEvent.responseSerialize` | (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) => Buffer |
+| `service.submitIdRegistryEvent.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.submitIdRegistryEvent.responseSerialize` | (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) =>  |
 | `service.submitIdRegistryEvent.responseStream` | ``false`` |
-| `service.submitMessage` | { `path`: ``"/HubService/SubmitMessage"`` ; `requestDeserialize`: (`value`: `Buffer`) => Message ; `requestSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Message ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `responseStream`: ``false``  } |
+| `service.submitMessage` | { `path`: ``"/HubService/SubmitMessage"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `responseStream`: ``false``  } |
 | `service.submitMessage.path` | ``"/HubService/SubmitMessage"`` |
-| `service.submitMessage.requestDeserialize` | (`value`: `Buffer`) => Message |
-| `service.submitMessage.requestSerialize` | (`value`: [`Message`](protobufs.md#message)) => Buffer |
+| `service.submitMessage.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.submitMessage.requestSerialize` | (`value`: [`Message`](protobufs.md#message)) =>  |
 | `service.submitMessage.requestStream` | ``false`` |
-| `service.submitMessage.responseDeserialize` | (`value`: `Buffer`) => Message |
-| `service.submitMessage.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) => Buffer |
+| `service.submitMessage.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.submitMessage.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) =>  |
 | `service.submitMessage.responseStream` | ``false`` |
-| `service.submitNameRegistryEvent` | { `path`: ``"/HubService/SubmitNameRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) => NameRegistryEvent ; `requestSerialize`: (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => NameRegistryEvent ; `responseSerialize`: (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) => Buffer ; `responseStream`: ``false``  } |
+| `service.submitNameRegistryEvent` | { `path`: ``"/HubService/SubmitNameRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) =>  ; `responseStream`: ``false``  } |
 | `service.submitNameRegistryEvent.path` | ``"/HubService/SubmitNameRegistryEvent"`` |
-| `service.submitNameRegistryEvent.requestDeserialize` | (`value`: `Buffer`) => NameRegistryEvent |
-| `service.submitNameRegistryEvent.requestSerialize` | (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) => Buffer |
+| `service.submitNameRegistryEvent.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.submitNameRegistryEvent.requestSerialize` | (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) =>  |
 | `service.submitNameRegistryEvent.requestStream` | ``false`` |
-| `service.submitNameRegistryEvent.responseDeserialize` | (`value`: `Buffer`) => NameRegistryEvent |
-| `service.submitNameRegistryEvent.responseSerialize` | (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) => Buffer |
+| `service.submitNameRegistryEvent.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.submitNameRegistryEvent.responseSerialize` | (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) =>  |
 | `service.submitNameRegistryEvent.responseStream` | ``false`` |
-| `service.subscribe` | { `path`: ``"/HubService/Subscribe"`` ; `requestDeserialize`: (`value`: `Buffer`) => SubscribeRequest ; `requestSerialize`: (`value`: [`SubscribeRequest`](protobufs.md#subscriberequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => HubEvent ; `responseSerialize`: (`value`: [`HubEvent`](protobufs.md#hubevent)) => Buffer ; `responseStream`: ``true``  } |
+| `service.subscribe` | { `path`: ``"/HubService/Subscribe"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`SubscribeRequest`](protobufs.md#subscriberequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`HubEvent`](protobufs.md#hubevent)) =>  ; `responseStream`: ``true``  } |
 | `service.subscribe.path` | ``"/HubService/Subscribe"`` |
-| `service.subscribe.requestDeserialize` | (`value`: `Buffer`) => SubscribeRequest |
-| `service.subscribe.requestSerialize` | (`value`: [`SubscribeRequest`](protobufs.md#subscriberequest)) => Buffer |
+| `service.subscribe.requestDeserialize` | (`value`: `Buffer`) =>  |
+| `service.subscribe.requestSerialize` | (`value`: [`SubscribeRequest`](protobufs.md#subscriberequest)) =>  |
 | `service.subscribe.requestStream` | ``false`` |
-| `service.subscribe.responseDeserialize` | (`value`: `Buffer`) => HubEvent |
-| `service.subscribe.responseSerialize` | (`value`: [`HubEvent`](protobufs.md#hubevent)) => Buffer |
+| `service.subscribe.responseDeserialize` | (`value`: `Buffer`) =>  |
+| `service.subscribe.responseSerialize` | (`value`: [`HubEvent`](protobufs.md#hubevent)) =>  |
 | `service.subscribe.responseStream` | ``true`` |
 
 ___
@@ -926,253 +926,253 @@ ___
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `getAllCastMessagesByFid` | { `path`: ``"/HubService/GetAllCastMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } | Bulk Methods |
+| `getAllCastMessagesByFid` | { `path`: ``"/HubService/GetAllCastMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } | Bulk Methods |
 | `getAllCastMessagesByFid.path` | ``"/HubService/GetAllCastMessagesByFid"`` | - |
-| `getAllCastMessagesByFid.requestDeserialize` | (`value`: `Buffer`) => FidRequest | - |
-| `getAllCastMessagesByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer | - |
+| `getAllCastMessagesByFid.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getAllCastMessagesByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  | - |
 | `getAllCastMessagesByFid.requestStream` | ``false`` | - |
-| `getAllCastMessagesByFid.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse | - |
-| `getAllCastMessagesByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer | - |
+| `getAllCastMessagesByFid.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getAllCastMessagesByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  | - |
 | `getAllCastMessagesByFid.responseStream` | ``false`` | - |
-| `getAllMessagesBySyncIds` | { `path`: ``"/HubService/GetAllMessagesBySyncIds"`` ; `requestDeserialize`: (`value`: `Buffer`) => SyncIds ; `requestSerialize`: (`value`: [`SyncIds`](protobufs.md#syncids)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } | - |
+| `getAllMessagesBySyncIds` | { `path`: ``"/HubService/GetAllMessagesBySyncIds"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`SyncIds`](protobufs.md#syncids)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } | - |
 | `getAllMessagesBySyncIds.path` | ``"/HubService/GetAllMessagesBySyncIds"`` | - |
-| `getAllMessagesBySyncIds.requestDeserialize` | (`value`: `Buffer`) => SyncIds | - |
-| `getAllMessagesBySyncIds.requestSerialize` | (`value`: [`SyncIds`](protobufs.md#syncids)) => Buffer | - |
+| `getAllMessagesBySyncIds.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getAllMessagesBySyncIds.requestSerialize` | (`value`: [`SyncIds`](protobufs.md#syncids)) =>  | - |
 | `getAllMessagesBySyncIds.requestStream` | ``false`` | - |
-| `getAllMessagesBySyncIds.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse | - |
-| `getAllMessagesBySyncIds.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer | - |
+| `getAllMessagesBySyncIds.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getAllMessagesBySyncIds.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  | - |
 | `getAllMessagesBySyncIds.responseStream` | ``false`` | - |
-| `getAllReactionMessagesByFid` | { `path`: ``"/HubService/GetAllReactionMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } | - |
+| `getAllReactionMessagesByFid` | { `path`: ``"/HubService/GetAllReactionMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } | - |
 | `getAllReactionMessagesByFid.path` | ``"/HubService/GetAllReactionMessagesByFid"`` | - |
-| `getAllReactionMessagesByFid.requestDeserialize` | (`value`: `Buffer`) => FidRequest | - |
-| `getAllReactionMessagesByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer | - |
+| `getAllReactionMessagesByFid.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getAllReactionMessagesByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  | - |
 | `getAllReactionMessagesByFid.requestStream` | ``false`` | - |
-| `getAllReactionMessagesByFid.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse | - |
-| `getAllReactionMessagesByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer | - |
+| `getAllReactionMessagesByFid.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getAllReactionMessagesByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  | - |
 | `getAllReactionMessagesByFid.responseStream` | ``false`` | - |
-| `getAllSignerMessagesByFid` | { `path`: ``"/HubService/GetAllSignerMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } | - |
+| `getAllSignerMessagesByFid` | { `path`: ``"/HubService/GetAllSignerMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } | - |
 | `getAllSignerMessagesByFid.path` | ``"/HubService/GetAllSignerMessagesByFid"`` | - |
-| `getAllSignerMessagesByFid.requestDeserialize` | (`value`: `Buffer`) => FidRequest | - |
-| `getAllSignerMessagesByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer | - |
+| `getAllSignerMessagesByFid.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getAllSignerMessagesByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  | - |
 | `getAllSignerMessagesByFid.requestStream` | ``false`` | - |
-| `getAllSignerMessagesByFid.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse | - |
-| `getAllSignerMessagesByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer | - |
+| `getAllSignerMessagesByFid.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getAllSignerMessagesByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  | - |
 | `getAllSignerMessagesByFid.responseStream` | ``false`` | - |
-| `getAllSyncIdsByPrefix` | { `path`: ``"/HubService/GetAllSyncIdsByPrefix"`` ; `requestDeserialize`: (`value`: `Buffer`) => TrieNodePrefix ; `requestSerialize`: (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => SyncIds ; `responseSerialize`: (`value`: [`SyncIds`](protobufs.md#syncids)) => Buffer ; `responseStream`: ``false``  } | - |
+| `getAllSyncIdsByPrefix` | { `path`: ``"/HubService/GetAllSyncIdsByPrefix"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`SyncIds`](protobufs.md#syncids)) =>  ; `responseStream`: ``false``  } | - |
 | `getAllSyncIdsByPrefix.path` | ``"/HubService/GetAllSyncIdsByPrefix"`` | - |
-| `getAllSyncIdsByPrefix.requestDeserialize` | (`value`: `Buffer`) => TrieNodePrefix | - |
-| `getAllSyncIdsByPrefix.requestSerialize` | (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) => Buffer | - |
+| `getAllSyncIdsByPrefix.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getAllSyncIdsByPrefix.requestSerialize` | (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) =>  | - |
 | `getAllSyncIdsByPrefix.requestStream` | ``false`` | - |
-| `getAllSyncIdsByPrefix.responseDeserialize` | (`value`: `Buffer`) => SyncIds | - |
-| `getAllSyncIdsByPrefix.responseSerialize` | (`value`: [`SyncIds`](protobufs.md#syncids)) => Buffer | - |
+| `getAllSyncIdsByPrefix.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getAllSyncIdsByPrefix.responseSerialize` | (`value`: [`SyncIds`](protobufs.md#syncids)) =>  | - |
 | `getAllSyncIdsByPrefix.responseStream` | ``false`` | - |
-| `getAllUserDataMessagesByFid` | { `path`: ``"/HubService/GetAllUserDataMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } | - |
+| `getAllUserDataMessagesByFid` | { `path`: ``"/HubService/GetAllUserDataMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } | - |
 | `getAllUserDataMessagesByFid.path` | ``"/HubService/GetAllUserDataMessagesByFid"`` | - |
-| `getAllUserDataMessagesByFid.requestDeserialize` | (`value`: `Buffer`) => FidRequest | - |
-| `getAllUserDataMessagesByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer | - |
+| `getAllUserDataMessagesByFid.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getAllUserDataMessagesByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  | - |
 | `getAllUserDataMessagesByFid.requestStream` | ``false`` | - |
-| `getAllUserDataMessagesByFid.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse | - |
-| `getAllUserDataMessagesByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer | - |
+| `getAllUserDataMessagesByFid.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getAllUserDataMessagesByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  | - |
 | `getAllUserDataMessagesByFid.responseStream` | ``false`` | - |
-| `getAllVerificationMessagesByFid` | { `path`: ``"/HubService/GetAllVerificationMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } | - |
+| `getAllVerificationMessagesByFid` | { `path`: ``"/HubService/GetAllVerificationMessagesByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } | - |
 | `getAllVerificationMessagesByFid.path` | ``"/HubService/GetAllVerificationMessagesByFid"`` | - |
-| `getAllVerificationMessagesByFid.requestDeserialize` | (`value`: `Buffer`) => FidRequest | - |
-| `getAllVerificationMessagesByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer | - |
+| `getAllVerificationMessagesByFid.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getAllVerificationMessagesByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  | - |
 | `getAllVerificationMessagesByFid.requestStream` | ``false`` | - |
-| `getAllVerificationMessagesByFid.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse | - |
-| `getAllVerificationMessagesByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer | - |
+| `getAllVerificationMessagesByFid.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getAllVerificationMessagesByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  | - |
 | `getAllVerificationMessagesByFid.responseStream` | ``false`` | - |
-| `getCast` | { `path`: ``"/HubService/GetCast"`` ; `requestDeserialize`: (`value`: `Buffer`) => CastId ; `requestSerialize`: (`value`: [`CastId`](protobufs.md#castid)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Message ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `responseStream`: ``false``  } | Casts |
+| `getCast` | { `path`: ``"/HubService/GetCast"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`CastId`](protobufs.md#castid)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `responseStream`: ``false``  } | Casts |
 | `getCast.path` | ``"/HubService/GetCast"`` | - |
-| `getCast.requestDeserialize` | (`value`: `Buffer`) => CastId | - |
-| `getCast.requestSerialize` | (`value`: [`CastId`](protobufs.md#castid)) => Buffer | - |
+| `getCast.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getCast.requestSerialize` | (`value`: [`CastId`](protobufs.md#castid)) =>  | - |
 | `getCast.requestStream` | ``false`` | - |
-| `getCast.responseDeserialize` | (`value`: `Buffer`) => Message | - |
-| `getCast.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) => Buffer | - |
+| `getCast.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getCast.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) =>  | - |
 | `getCast.responseStream` | ``false`` | - |
-| `getCastsByFid` | { `path`: ``"/HubService/GetCastsByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } | - |
+| `getCastsByFid` | { `path`: ``"/HubService/GetCastsByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } | - |
 | `getCastsByFid.path` | ``"/HubService/GetCastsByFid"`` | - |
-| `getCastsByFid.requestDeserialize` | (`value`: `Buffer`) => FidRequest | - |
-| `getCastsByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer | - |
+| `getCastsByFid.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getCastsByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  | - |
 | `getCastsByFid.requestStream` | ``false`` | - |
-| `getCastsByFid.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse | - |
-| `getCastsByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer | - |
+| `getCastsByFid.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getCastsByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  | - |
 | `getCastsByFid.responseStream` | ``false`` | - |
-| `getCastsByMention` | { `path`: ``"/HubService/GetCastsByMention"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } | - |
+| `getCastsByMention` | { `path`: ``"/HubService/GetCastsByMention"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } | - |
 | `getCastsByMention.path` | ``"/HubService/GetCastsByMention"`` | - |
-| `getCastsByMention.requestDeserialize` | (`value`: `Buffer`) => FidRequest | - |
-| `getCastsByMention.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer | - |
+| `getCastsByMention.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getCastsByMention.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  | - |
 | `getCastsByMention.requestStream` | ``false`` | - |
-| `getCastsByMention.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse | - |
-| `getCastsByMention.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer | - |
+| `getCastsByMention.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getCastsByMention.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  | - |
 | `getCastsByMention.responseStream` | ``false`` | - |
-| `getCastsByParent` | { `path`: ``"/HubService/GetCastsByParent"`` ; `requestDeserialize`: (`value`: `Buffer`) => CastId ; `requestSerialize`: (`value`: [`CastId`](protobufs.md#castid)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } | - |
+| `getCastsByParent` | { `path`: ``"/HubService/GetCastsByParent"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`CastId`](protobufs.md#castid)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } | - |
 | `getCastsByParent.path` | ``"/HubService/GetCastsByParent"`` | - |
-| `getCastsByParent.requestDeserialize` | (`value`: `Buffer`) => CastId | - |
-| `getCastsByParent.requestSerialize` | (`value`: [`CastId`](protobufs.md#castid)) => Buffer | - |
+| `getCastsByParent.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getCastsByParent.requestSerialize` | (`value`: [`CastId`](protobufs.md#castid)) =>  | - |
 | `getCastsByParent.requestStream` | ``false`` | - |
-| `getCastsByParent.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse | - |
-| `getCastsByParent.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer | - |
+| `getCastsByParent.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getCastsByParent.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  | - |
 | `getCastsByParent.responseStream` | ``false`` | - |
-| `getEvent` | { `path`: ``"/HubService/GetEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) => EventRequest ; `requestSerialize`: (`value`: [`EventRequest`](protobufs.md#eventrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => HubEvent ; `responseSerialize`: (`value`: [`HubEvent`](protobufs.md#hubevent)) => Buffer ; `responseStream`: ``false``  } | - |
+| `getEvent` | { `path`: ``"/HubService/GetEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`EventRequest`](protobufs.md#eventrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`HubEvent`](protobufs.md#hubevent)) =>  ; `responseStream`: ``false``  } | - |
 | `getEvent.path` | ``"/HubService/GetEvent"`` | - |
-| `getEvent.requestDeserialize` | (`value`: `Buffer`) => EventRequest | - |
-| `getEvent.requestSerialize` | (`value`: [`EventRequest`](protobufs.md#eventrequest)) => Buffer | - |
+| `getEvent.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getEvent.requestSerialize` | (`value`: [`EventRequest`](protobufs.md#eventrequest)) =>  | - |
 | `getEvent.requestStream` | ``false`` | - |
-| `getEvent.responseDeserialize` | (`value`: `Buffer`) => HubEvent | - |
-| `getEvent.responseSerialize` | (`value`: [`HubEvent`](protobufs.md#hubevent)) => Buffer | - |
+| `getEvent.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getEvent.responseSerialize` | (`value`: [`HubEvent`](protobufs.md#hubevent)) =>  | - |
 | `getEvent.responseStream` | ``false`` | - |
-| `getFids` | { `path`: ``"/HubService/GetFids"`` ; `requestDeserialize`: (`value`: `Buffer`) => Empty ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => FidsResponse ; `responseSerialize`: (`value`: [`FidsResponse`](protobufs.md#fidsresponse)) => Buffer ; `responseStream`: ``false``  } | - |
+| `getFids` | { `path`: ``"/HubService/GetFids"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`FidsResponse`](protobufs.md#fidsresponse)) =>  ; `responseStream`: ``false``  } | - |
 | `getFids.path` | ``"/HubService/GetFids"`` | - |
-| `getFids.requestDeserialize` | (`value`: `Buffer`) => Empty | - |
-| `getFids.requestSerialize` | (`value`: [`Empty`](protobufs.md#empty)) => Buffer | - |
+| `getFids.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getFids.requestSerialize` | (`value`: [`Empty`](protobufs.md#empty)) =>  | - |
 | `getFids.requestStream` | ``false`` | - |
-| `getFids.responseDeserialize` | (`value`: `Buffer`) => FidsResponse | - |
-| `getFids.responseSerialize` | (`value`: [`FidsResponse`](protobufs.md#fidsresponse)) => Buffer | - |
+| `getFids.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getFids.responseSerialize` | (`value`: [`FidsResponse`](protobufs.md#fidsresponse)) =>  | - |
 | `getFids.responseStream` | ``false`` | - |
-| `getIdRegistryEvent` | { `path`: ``"/HubService/GetIdRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => IdRegistryEvent ; `responseSerialize`: (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) => Buffer ; `responseStream`: ``false``  } | - |
+| `getIdRegistryEvent` | { `path`: ``"/HubService/GetIdRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) =>  ; `responseStream`: ``false``  } | - |
 | `getIdRegistryEvent.path` | ``"/HubService/GetIdRegistryEvent"`` | - |
-| `getIdRegistryEvent.requestDeserialize` | (`value`: `Buffer`) => FidRequest | - |
-| `getIdRegistryEvent.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer | - |
+| `getIdRegistryEvent.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getIdRegistryEvent.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  | - |
 | `getIdRegistryEvent.requestStream` | ``false`` | - |
-| `getIdRegistryEvent.responseDeserialize` | (`value`: `Buffer`) => IdRegistryEvent | - |
-| `getIdRegistryEvent.responseSerialize` | (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) => Buffer | - |
+| `getIdRegistryEvent.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getIdRegistryEvent.responseSerialize` | (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) =>  | - |
 | `getIdRegistryEvent.responseStream` | ``false`` | - |
-| `getInfo` | { `path`: ``"/HubService/GetInfo"`` ; `requestDeserialize`: (`value`: `Buffer`) => Empty ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => HubInfoResponse ; `responseSerialize`: (`value`: [`HubInfoResponse`](protobufs.md#hubinforesponse)) => Buffer ; `responseStream`: ``false``  } | Sync Methods |
+| `getInfo` | { `path`: ``"/HubService/GetInfo"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`Empty`](protobufs.md#empty)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`HubInfoResponse`](protobufs.md#hubinforesponse)) =>  ; `responseStream`: ``false``  } | Sync Methods |
 | `getInfo.path` | ``"/HubService/GetInfo"`` | - |
-| `getInfo.requestDeserialize` | (`value`: `Buffer`) => Empty | - |
-| `getInfo.requestSerialize` | (`value`: [`Empty`](protobufs.md#empty)) => Buffer | - |
+| `getInfo.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getInfo.requestSerialize` | (`value`: [`Empty`](protobufs.md#empty)) =>  | - |
 | `getInfo.requestStream` | ``false`` | - |
-| `getInfo.responseDeserialize` | (`value`: `Buffer`) => HubInfoResponse | - |
-| `getInfo.responseSerialize` | (`value`: [`HubInfoResponse`](protobufs.md#hubinforesponse)) => Buffer | - |
+| `getInfo.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getInfo.responseSerialize` | (`value`: [`HubInfoResponse`](protobufs.md#hubinforesponse)) =>  | - |
 | `getInfo.responseStream` | ``false`` | - |
-| `getNameRegistryEvent` | { `path`: ``"/HubService/GetNameRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) => NameRegistryEventRequest ; `requestSerialize`: (`value`: [`NameRegistryEventRequest`](protobufs.md#nameregistryeventrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => NameRegistryEvent ; `responseSerialize`: (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) => Buffer ; `responseStream`: ``false``  } | - |
+| `getNameRegistryEvent` | { `path`: ``"/HubService/GetNameRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`NameRegistryEventRequest`](protobufs.md#nameregistryeventrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) =>  ; `responseStream`: ``false``  } | - |
 | `getNameRegistryEvent.path` | ``"/HubService/GetNameRegistryEvent"`` | - |
-| `getNameRegistryEvent.requestDeserialize` | (`value`: `Buffer`) => NameRegistryEventRequest | - |
-| `getNameRegistryEvent.requestSerialize` | (`value`: [`NameRegistryEventRequest`](protobufs.md#nameregistryeventrequest)) => Buffer | - |
+| `getNameRegistryEvent.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getNameRegistryEvent.requestSerialize` | (`value`: [`NameRegistryEventRequest`](protobufs.md#nameregistryeventrequest)) =>  | - |
 | `getNameRegistryEvent.requestStream` | ``false`` | - |
-| `getNameRegistryEvent.responseDeserialize` | (`value`: `Buffer`) => NameRegistryEvent | - |
-| `getNameRegistryEvent.responseSerialize` | (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) => Buffer | - |
+| `getNameRegistryEvent.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getNameRegistryEvent.responseSerialize` | (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) =>  | - |
 | `getNameRegistryEvent.responseStream` | ``false`` | - |
-| `getReaction` | { `path`: ``"/HubService/GetReaction"`` ; `requestDeserialize`: (`value`: `Buffer`) => ReactionRequest ; `requestSerialize`: (`value`: [`ReactionRequest`](protobufs.md#reactionrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Message ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `responseStream`: ``false``  } | Reactions |
+| `getReaction` | { `path`: ``"/HubService/GetReaction"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`ReactionRequest`](protobufs.md#reactionrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `responseStream`: ``false``  } | Reactions |
 | `getReaction.path` | ``"/HubService/GetReaction"`` | - |
-| `getReaction.requestDeserialize` | (`value`: `Buffer`) => ReactionRequest | - |
-| `getReaction.requestSerialize` | (`value`: [`ReactionRequest`](protobufs.md#reactionrequest)) => Buffer | - |
+| `getReaction.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getReaction.requestSerialize` | (`value`: [`ReactionRequest`](protobufs.md#reactionrequest)) =>  | - |
 | `getReaction.requestStream` | ``false`` | - |
-| `getReaction.responseDeserialize` | (`value`: `Buffer`) => Message | - |
-| `getReaction.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) => Buffer | - |
+| `getReaction.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getReaction.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) =>  | - |
 | `getReaction.responseStream` | ``false`` | - |
-| `getReactionsByCast` | { `path`: ``"/HubService/GetReactionsByCast"`` ; `requestDeserialize`: (`value`: `Buffer`) => ReactionsByCastRequest ; `requestSerialize`: (`value`: [`ReactionsByCastRequest`](protobufs.md#reactionsbycastrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } | - |
+| `getReactionsByCast` | { `path`: ``"/HubService/GetReactionsByCast"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`ReactionsByCastRequest`](protobufs.md#reactionsbycastrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } | - |
 | `getReactionsByCast.path` | ``"/HubService/GetReactionsByCast"`` | - |
-| `getReactionsByCast.requestDeserialize` | (`value`: `Buffer`) => ReactionsByCastRequest | - |
-| `getReactionsByCast.requestSerialize` | (`value`: [`ReactionsByCastRequest`](protobufs.md#reactionsbycastrequest)) => Buffer | - |
+| `getReactionsByCast.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getReactionsByCast.requestSerialize` | (`value`: [`ReactionsByCastRequest`](protobufs.md#reactionsbycastrequest)) =>  | - |
 | `getReactionsByCast.requestStream` | ``false`` | - |
-| `getReactionsByCast.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse | - |
-| `getReactionsByCast.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer | - |
+| `getReactionsByCast.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getReactionsByCast.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  | - |
 | `getReactionsByCast.responseStream` | ``false`` | - |
-| `getReactionsByFid` | { `path`: ``"/HubService/GetReactionsByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => ReactionsByFidRequest ; `requestSerialize`: (`value`: [`ReactionsByFidRequest`](protobufs.md#reactionsbyfidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } | - |
+| `getReactionsByFid` | { `path`: ``"/HubService/GetReactionsByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`ReactionsByFidRequest`](protobufs.md#reactionsbyfidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } | - |
 | `getReactionsByFid.path` | ``"/HubService/GetReactionsByFid"`` | - |
-| `getReactionsByFid.requestDeserialize` | (`value`: `Buffer`) => ReactionsByFidRequest | - |
-| `getReactionsByFid.requestSerialize` | (`value`: [`ReactionsByFidRequest`](protobufs.md#reactionsbyfidrequest)) => Buffer | - |
+| `getReactionsByFid.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getReactionsByFid.requestSerialize` | (`value`: [`ReactionsByFidRequest`](protobufs.md#reactionsbyfidrequest)) =>  | - |
 | `getReactionsByFid.requestStream` | ``false`` | - |
-| `getReactionsByFid.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse | - |
-| `getReactionsByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer | - |
+| `getReactionsByFid.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getReactionsByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  | - |
 | `getReactionsByFid.responseStream` | ``false`` | - |
-| `getSigner` | { `path`: ``"/HubService/GetSigner"`` ; `requestDeserialize`: (`value`: `Buffer`) => SignerRequest ; `requestSerialize`: (`value`: [`SignerRequest`](protobufs.md#signerrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Message ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `responseStream`: ``false``  } | Signer |
+| `getSigner` | { `path`: ``"/HubService/GetSigner"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`SignerRequest`](protobufs.md#signerrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `responseStream`: ``false``  } | Signer |
 | `getSigner.path` | ``"/HubService/GetSigner"`` | - |
-| `getSigner.requestDeserialize` | (`value`: `Buffer`) => SignerRequest | - |
-| `getSigner.requestSerialize` | (`value`: [`SignerRequest`](protobufs.md#signerrequest)) => Buffer | - |
+| `getSigner.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getSigner.requestSerialize` | (`value`: [`SignerRequest`](protobufs.md#signerrequest)) =>  | - |
 | `getSigner.requestStream` | ``false`` | - |
-| `getSigner.responseDeserialize` | (`value`: `Buffer`) => Message | - |
-| `getSigner.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) => Buffer | - |
+| `getSigner.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getSigner.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) =>  | - |
 | `getSigner.responseStream` | ``false`` | - |
-| `getSignersByFid` | { `path`: ``"/HubService/GetSignersByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } | - |
+| `getSignersByFid` | { `path`: ``"/HubService/GetSignersByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } | - |
 | `getSignersByFid.path` | ``"/HubService/GetSignersByFid"`` | - |
-| `getSignersByFid.requestDeserialize` | (`value`: `Buffer`) => FidRequest | - |
-| `getSignersByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer | - |
+| `getSignersByFid.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getSignersByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  | - |
 | `getSignersByFid.requestStream` | ``false`` | - |
-| `getSignersByFid.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse | - |
-| `getSignersByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer | - |
+| `getSignersByFid.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getSignersByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  | - |
 | `getSignersByFid.responseStream` | ``false`` | - |
-| `getSyncMetadataByPrefix` | { `path`: ``"/HubService/GetSyncMetadataByPrefix"`` ; `requestDeserialize`: (`value`: `Buffer`) => TrieNodePrefix ; `requestSerialize`: (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => TrieNodeMetadataResponse ; `responseSerialize`: (`value`: [`TrieNodeMetadataResponse`](protobufs.md#trienodemetadataresponse)) => Buffer ; `responseStream`: ``false``  } | - |
+| `getSyncMetadataByPrefix` | { `path`: ``"/HubService/GetSyncMetadataByPrefix"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`TrieNodeMetadataResponse`](protobufs.md#trienodemetadataresponse)) =>  ; `responseStream`: ``false``  } | - |
 | `getSyncMetadataByPrefix.path` | ``"/HubService/GetSyncMetadataByPrefix"`` | - |
-| `getSyncMetadataByPrefix.requestDeserialize` | (`value`: `Buffer`) => TrieNodePrefix | - |
-| `getSyncMetadataByPrefix.requestSerialize` | (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) => Buffer | - |
+| `getSyncMetadataByPrefix.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getSyncMetadataByPrefix.requestSerialize` | (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) =>  | - |
 | `getSyncMetadataByPrefix.requestStream` | ``false`` | - |
-| `getSyncMetadataByPrefix.responseDeserialize` | (`value`: `Buffer`) => TrieNodeMetadataResponse | - |
-| `getSyncMetadataByPrefix.responseSerialize` | (`value`: [`TrieNodeMetadataResponse`](protobufs.md#trienodemetadataresponse)) => Buffer | - |
+| `getSyncMetadataByPrefix.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getSyncMetadataByPrefix.responseSerialize` | (`value`: [`TrieNodeMetadataResponse`](protobufs.md#trienodemetadataresponse)) =>  | - |
 | `getSyncMetadataByPrefix.responseStream` | ``false`` | - |
-| `getSyncSnapshotByPrefix` | { `path`: ``"/HubService/GetSyncSnapshotByPrefix"`` ; `requestDeserialize`: (`value`: `Buffer`) => TrieNodePrefix ; `requestSerialize`: (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => TrieNodeSnapshotResponse ; `responseSerialize`: (`value`: [`TrieNodeSnapshotResponse`](protobufs.md#trienodesnapshotresponse)) => Buffer ; `responseStream`: ``false``  } | - |
+| `getSyncSnapshotByPrefix` | { `path`: ``"/HubService/GetSyncSnapshotByPrefix"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`TrieNodeSnapshotResponse`](protobufs.md#trienodesnapshotresponse)) =>  ; `responseStream`: ``false``  } | - |
 | `getSyncSnapshotByPrefix.path` | ``"/HubService/GetSyncSnapshotByPrefix"`` | - |
-| `getSyncSnapshotByPrefix.requestDeserialize` | (`value`: `Buffer`) => TrieNodePrefix | - |
-| `getSyncSnapshotByPrefix.requestSerialize` | (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) => Buffer | - |
+| `getSyncSnapshotByPrefix.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getSyncSnapshotByPrefix.requestSerialize` | (`value`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) =>  | - |
 | `getSyncSnapshotByPrefix.requestStream` | ``false`` | - |
-| `getSyncSnapshotByPrefix.responseDeserialize` | (`value`: `Buffer`) => TrieNodeSnapshotResponse | - |
-| `getSyncSnapshotByPrefix.responseSerialize` | (`value`: [`TrieNodeSnapshotResponse`](protobufs.md#trienodesnapshotresponse)) => Buffer | - |
+| `getSyncSnapshotByPrefix.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getSyncSnapshotByPrefix.responseSerialize` | (`value`: [`TrieNodeSnapshotResponse`](protobufs.md#trienodesnapshotresponse)) =>  | - |
 | `getSyncSnapshotByPrefix.responseStream` | ``false`` | - |
-| `getUserData` | { `path`: ``"/HubService/GetUserData"`` ; `requestDeserialize`: (`value`: `Buffer`) => UserDataRequest ; `requestSerialize`: (`value`: [`UserDataRequest`](protobufs.md#userdatarequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Message ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `responseStream`: ``false``  } | User Data |
+| `getUserData` | { `path`: ``"/HubService/GetUserData"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`UserDataRequest`](protobufs.md#userdatarequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `responseStream`: ``false``  } | User Data |
 | `getUserData.path` | ``"/HubService/GetUserData"`` | - |
-| `getUserData.requestDeserialize` | (`value`: `Buffer`) => UserDataRequest | - |
-| `getUserData.requestSerialize` | (`value`: [`UserDataRequest`](protobufs.md#userdatarequest)) => Buffer | - |
+| `getUserData.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getUserData.requestSerialize` | (`value`: [`UserDataRequest`](protobufs.md#userdatarequest)) =>  | - |
 | `getUserData.requestStream` | ``false`` | - |
-| `getUserData.responseDeserialize` | (`value`: `Buffer`) => Message | - |
-| `getUserData.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) => Buffer | - |
+| `getUserData.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getUserData.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) =>  | - |
 | `getUserData.responseStream` | ``false`` | - |
-| `getUserDataByFid` | { `path`: ``"/HubService/GetUserDataByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } | - |
+| `getUserDataByFid` | { `path`: ``"/HubService/GetUserDataByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } | - |
 | `getUserDataByFid.path` | ``"/HubService/GetUserDataByFid"`` | - |
-| `getUserDataByFid.requestDeserialize` | (`value`: `Buffer`) => FidRequest | - |
-| `getUserDataByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer | - |
+| `getUserDataByFid.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getUserDataByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  | - |
 | `getUserDataByFid.requestStream` | ``false`` | - |
-| `getUserDataByFid.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse | - |
-| `getUserDataByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer | - |
+| `getUserDataByFid.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getUserDataByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  | - |
 | `getUserDataByFid.responseStream` | ``false`` | - |
-| `getVerification` | { `path`: ``"/HubService/GetVerification"`` ; `requestDeserialize`: (`value`: `Buffer`) => VerificationRequest ; `requestSerialize`: (`value`: [`VerificationRequest`](protobufs.md#verificationrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Message ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `responseStream`: ``false``  } | Verifications |
+| `getVerification` | { `path`: ``"/HubService/GetVerification"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`VerificationRequest`](protobufs.md#verificationrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `responseStream`: ``false``  } | Verifications |
 | `getVerification.path` | ``"/HubService/GetVerification"`` | - |
-| `getVerification.requestDeserialize` | (`value`: `Buffer`) => VerificationRequest | - |
-| `getVerification.requestSerialize` | (`value`: [`VerificationRequest`](protobufs.md#verificationrequest)) => Buffer | - |
+| `getVerification.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getVerification.requestSerialize` | (`value`: [`VerificationRequest`](protobufs.md#verificationrequest)) =>  | - |
 | `getVerification.requestStream` | ``false`` | - |
-| `getVerification.responseDeserialize` | (`value`: `Buffer`) => Message | - |
-| `getVerification.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) => Buffer | - |
+| `getVerification.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getVerification.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) =>  | - |
 | `getVerification.responseStream` | ``false`` | - |
-| `getVerificationsByFid` | { `path`: ``"/HubService/GetVerificationsByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) => FidRequest ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => MessagesResponse ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer ; `responseStream`: ``false``  } | - |
+| `getVerificationsByFid` | { `path`: ``"/HubService/GetVerificationsByFid"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  ; `responseStream`: ``false``  } | - |
 | `getVerificationsByFid.path` | ``"/HubService/GetVerificationsByFid"`` | - |
-| `getVerificationsByFid.requestDeserialize` | (`value`: `Buffer`) => FidRequest | - |
-| `getVerificationsByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) => Buffer | - |
+| `getVerificationsByFid.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getVerificationsByFid.requestSerialize` | (`value`: [`FidRequest`](protobufs.md#fidrequest)) =>  | - |
 | `getVerificationsByFid.requestStream` | ``false`` | - |
-| `getVerificationsByFid.responseDeserialize` | (`value`: `Buffer`) => MessagesResponse | - |
-| `getVerificationsByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) => Buffer | - |
+| `getVerificationsByFid.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `getVerificationsByFid.responseSerialize` | (`value`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  | - |
 | `getVerificationsByFid.responseStream` | ``false`` | - |
-| `submitIdRegistryEvent` | { `path`: ``"/HubService/SubmitIdRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) => IdRegistryEvent ; `requestSerialize`: (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => IdRegistryEvent ; `responseSerialize`: (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) => Buffer ; `responseStream`: ``false``  } | - |
+| `submitIdRegistryEvent` | { `path`: ``"/HubService/SubmitIdRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) =>  ; `responseStream`: ``false``  } | - |
 | `submitIdRegistryEvent.path` | ``"/HubService/SubmitIdRegistryEvent"`` | - |
-| `submitIdRegistryEvent.requestDeserialize` | (`value`: `Buffer`) => IdRegistryEvent | - |
-| `submitIdRegistryEvent.requestSerialize` | (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) => Buffer | - |
+| `submitIdRegistryEvent.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `submitIdRegistryEvent.requestSerialize` | (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) =>  | - |
 | `submitIdRegistryEvent.requestStream` | ``false`` | - |
-| `submitIdRegistryEvent.responseDeserialize` | (`value`: `Buffer`) => IdRegistryEvent | - |
-| `submitIdRegistryEvent.responseSerialize` | (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) => Buffer | - |
+| `submitIdRegistryEvent.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `submitIdRegistryEvent.responseSerialize` | (`value`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) =>  | - |
 | `submitIdRegistryEvent.responseStream` | ``false`` | - |
-| `submitMessage` | { `path`: ``"/HubService/SubmitMessage"`` ; `requestDeserialize`: (`value`: `Buffer`) => Message ; `requestSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => Message ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) => Buffer ; `responseStream`: ``false``  } | Submit Methods |
+| `submitMessage` | { `path`: ``"/HubService/SubmitMessage"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`Message`](protobufs.md#message)) =>  ; `responseStream`: ``false``  } | Submit Methods |
 | `submitMessage.path` | ``"/HubService/SubmitMessage"`` | - |
-| `submitMessage.requestDeserialize` | (`value`: `Buffer`) => Message | - |
-| `submitMessage.requestSerialize` | (`value`: [`Message`](protobufs.md#message)) => Buffer | - |
+| `submitMessage.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `submitMessage.requestSerialize` | (`value`: [`Message`](protobufs.md#message)) =>  | - |
 | `submitMessage.requestStream` | ``false`` | - |
-| `submitMessage.responseDeserialize` | (`value`: `Buffer`) => Message | - |
-| `submitMessage.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) => Buffer | - |
+| `submitMessage.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `submitMessage.responseSerialize` | (`value`: [`Message`](protobufs.md#message)) =>  | - |
 | `submitMessage.responseStream` | ``false`` | - |
-| `submitNameRegistryEvent` | { `path`: ``"/HubService/SubmitNameRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) => NameRegistryEvent ; `requestSerialize`: (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => NameRegistryEvent ; `responseSerialize`: (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) => Buffer ; `responseStream`: ``false``  } | - |
+| `submitNameRegistryEvent` | { `path`: ``"/HubService/SubmitNameRegistryEvent"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) =>  ; `responseStream`: ``false``  } | - |
 | `submitNameRegistryEvent.path` | ``"/HubService/SubmitNameRegistryEvent"`` | - |
-| `submitNameRegistryEvent.requestDeserialize` | (`value`: `Buffer`) => NameRegistryEvent | - |
-| `submitNameRegistryEvent.requestSerialize` | (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) => Buffer | - |
+| `submitNameRegistryEvent.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `submitNameRegistryEvent.requestSerialize` | (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) =>  | - |
 | `submitNameRegistryEvent.requestStream` | ``false`` | - |
-| `submitNameRegistryEvent.responseDeserialize` | (`value`: `Buffer`) => NameRegistryEvent | - |
-| `submitNameRegistryEvent.responseSerialize` | (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) => Buffer | - |
+| `submitNameRegistryEvent.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `submitNameRegistryEvent.responseSerialize` | (`value`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) =>  | - |
 | `submitNameRegistryEvent.responseStream` | ``false`` | - |
-| `subscribe` | { `path`: ``"/HubService/Subscribe"`` ; `requestDeserialize`: (`value`: `Buffer`) => SubscribeRequest ; `requestSerialize`: (`value`: [`SubscribeRequest`](protobufs.md#subscriberequest)) => Buffer ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) => HubEvent ; `responseSerialize`: (`value`: [`HubEvent`](protobufs.md#hubevent)) => Buffer ; `responseStream`: ``true``  } | Event Methods |
+| `subscribe` | { `path`: ``"/HubService/Subscribe"`` ; `requestDeserialize`: (`value`: `Buffer`) =>  ; `requestSerialize`: (`value`: [`SubscribeRequest`](protobufs.md#subscriberequest)) =>  ; `requestStream`: ``false`` ; `responseDeserialize`: (`value`: `Buffer`) =>  ; `responseSerialize`: (`value`: [`HubEvent`](protobufs.md#hubevent)) =>  ; `responseStream`: ``true``  } | Event Methods |
 | `subscribe.path` | ``"/HubService/Subscribe"`` | - |
-| `subscribe.requestDeserialize` | (`value`: `Buffer`) => SubscribeRequest | - |
-| `subscribe.requestSerialize` | (`value`: [`SubscribeRequest`](protobufs.md#subscriberequest)) => Buffer | - |
+| `subscribe.requestDeserialize` | (`value`: `Buffer`) =>  | - |
+| `subscribe.requestSerialize` | (`value`: [`SubscribeRequest`](protobufs.md#subscriberequest)) =>  | - |
 | `subscribe.requestStream` | ``false`` | - |
-| `subscribe.responseDeserialize` | (`value`: `Buffer`) => HubEvent | - |
-| `subscribe.responseSerialize` | (`value`: [`HubEvent`](protobufs.md#hubevent)) => Buffer | - |
+| `subscribe.responseDeserialize` | (`value`: `Buffer`) =>  | - |
+| `subscribe.responseSerialize` | (`value`: [`HubEvent`](protobufs.md#hubevent)) =>  | - |
 | `subscribe.responseStream` | ``true`` | - |
 
 ___
@@ -1185,12 +1185,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => HubState |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => HubState |
-| `encode` | (`message`: [`HubState`](protobufs.md#hubstate), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => HubState |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => HubState |
-| `toJSON` | (`message`: [`HubState`](protobufs.md#hubstate)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`HubState`](protobufs.md#hubstate), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`HubState`](protobufs.md#hubstate)) =>  |
 
 ___
 
@@ -1202,12 +1202,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => IdRegistryEvent |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => IdRegistryEvent |
-| `encode` | (`message`: [`IdRegistryEvent`](protobufs.md#idregistryevent), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => IdRegistryEvent |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => IdRegistryEvent |
-| `toJSON` | (`message`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`IdRegistryEvent`](protobufs.md#idregistryevent), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`IdRegistryEvent`](protobufs.md#idregistryevent)) =>  |
 
 ___
 
@@ -1219,12 +1219,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => MergeIdRegistryEventBody |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => MergeIdRegistryEventBody |
-| `encode` | (`message`: [`MergeIdRegistryEventBody`](protobufs.md#mergeidregistryeventbody), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => MergeIdRegistryEventBody |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => MergeIdRegistryEventBody |
-| `toJSON` | (`message`: [`MergeIdRegistryEventBody`](protobufs.md#mergeidregistryeventbody)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`MergeIdRegistryEventBody`](protobufs.md#mergeidregistryeventbody), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`MergeIdRegistryEventBody`](protobufs.md#mergeidregistryeventbody)) =>  |
 
 ___
 
@@ -1236,12 +1236,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => MergeMessageBody |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => MergeMessageBody |
-| `encode` | (`message`: [`MergeMessageBody`](protobufs.md#mergemessagebody), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => MergeMessageBody |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => MergeMessageBody |
-| `toJSON` | (`message`: [`MergeMessageBody`](protobufs.md#mergemessagebody)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`MergeMessageBody`](protobufs.md#mergemessagebody), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`MergeMessageBody`](protobufs.md#mergemessagebody)) =>  |
 
 ___
 
@@ -1253,12 +1253,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => MergeNameRegistryEventBody |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => MergeNameRegistryEventBody |
-| `encode` | (`message`: [`MergeNameRegistryEventBody`](protobufs.md#mergenameregistryeventbody), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => MergeNameRegistryEventBody |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => MergeNameRegistryEventBody |
-| `toJSON` | (`message`: [`MergeNameRegistryEventBody`](protobufs.md#mergenameregistryeventbody)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`MergeNameRegistryEventBody`](protobufs.md#mergenameregistryeventbody), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`MergeNameRegistryEventBody`](protobufs.md#mergenameregistryeventbody)) =>  |
 
 ___
 
@@ -1270,12 +1270,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => Message |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => Message |
-| `encode` | (`message`: [`Message`](protobufs.md#message), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => Message |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => Message |
-| `toJSON` | (`message`: [`Message`](protobufs.md#message)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`Message`](protobufs.md#message), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`Message`](protobufs.md#message)) =>  |
 
 ___
 
@@ -1287,12 +1287,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => MessageData |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => MessageData |
-| `encode` | (`message`: [`MessageData`](protobufs.md#messagedata), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => MessageData |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => MessageData |
-| `toJSON` | (`message`: [`MessageData`](protobufs.md#messagedata)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`MessageData`](protobufs.md#messagedata), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`MessageData`](protobufs.md#messagedata)) =>  |
 
 ___
 
@@ -1304,12 +1304,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => MessagesResponse |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => MessagesResponse |
-| `encode` | (`message`: [`MessagesResponse`](protobufs.md#messagesresponse), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => MessagesResponse |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => MessagesResponse |
-| `toJSON` | (`message`: [`MessagesResponse`](protobufs.md#messagesresponse)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`MessagesResponse`](protobufs.md#messagesresponse), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`MessagesResponse`](protobufs.md#messagesresponse)) =>  |
 
 ___
 
@@ -1321,12 +1321,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => NameRegistryEvent |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => NameRegistryEvent |
-| `encode` | (`message`: [`NameRegistryEvent`](protobufs.md#nameregistryevent), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => NameRegistryEvent |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => NameRegistryEvent |
-| `toJSON` | (`message`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`NameRegistryEvent`](protobufs.md#nameregistryevent), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`NameRegistryEvent`](protobufs.md#nameregistryevent)) =>  |
 
 ___
 
@@ -1338,12 +1338,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => NameRegistryEventRequest |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => NameRegistryEventRequest |
-| `encode` | (`message`: [`NameRegistryEventRequest`](protobufs.md#nameregistryeventrequest), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => NameRegistryEventRequest |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => NameRegistryEventRequest |
-| `toJSON` | (`message`: [`NameRegistryEventRequest`](protobufs.md#nameregistryeventrequest)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`NameRegistryEventRequest`](protobufs.md#nameregistryeventrequest), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`NameRegistryEventRequest`](protobufs.md#nameregistryeventrequest)) =>  |
 
 ___
 
@@ -1355,12 +1355,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => PruneMessageBody |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => PruneMessageBody |
-| `encode` | (`message`: [`PruneMessageBody`](protobufs.md#prunemessagebody), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => PruneMessageBody |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => PruneMessageBody |
-| `toJSON` | (`message`: [`PruneMessageBody`](protobufs.md#prunemessagebody)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`PruneMessageBody`](protobufs.md#prunemessagebody), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`PruneMessageBody`](protobufs.md#prunemessagebody)) =>  |
 
 ___
 
@@ -1372,12 +1372,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => ReactionBody |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => ReactionBody |
-| `encode` | (`message`: [`ReactionBody`](protobufs.md#reactionbody), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => ReactionBody |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => ReactionBody |
-| `toJSON` | (`message`: [`ReactionBody`](protobufs.md#reactionbody)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`ReactionBody`](protobufs.md#reactionbody), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`ReactionBody`](protobufs.md#reactionbody)) =>  |
 
 ___
 
@@ -1389,12 +1389,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => ReactionRequest |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => ReactionRequest |
-| `encode` | (`message`: [`ReactionRequest`](protobufs.md#reactionrequest), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => ReactionRequest |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => ReactionRequest |
-| `toJSON` | (`message`: [`ReactionRequest`](protobufs.md#reactionrequest)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`ReactionRequest`](protobufs.md#reactionrequest), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`ReactionRequest`](protobufs.md#reactionrequest)) =>  |
 
 ___
 
@@ -1406,12 +1406,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => ReactionsByCastRequest |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => ReactionsByCastRequest |
-| `encode` | (`message`: [`ReactionsByCastRequest`](protobufs.md#reactionsbycastrequest), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => ReactionsByCastRequest |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => ReactionsByCastRequest |
-| `toJSON` | (`message`: [`ReactionsByCastRequest`](protobufs.md#reactionsbycastrequest)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`ReactionsByCastRequest`](protobufs.md#reactionsbycastrequest), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`ReactionsByCastRequest`](protobufs.md#reactionsbycastrequest)) =>  |
 
 ___
 
@@ -1423,12 +1423,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => ReactionsByFidRequest |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => ReactionsByFidRequest |
-| `encode` | (`message`: [`ReactionsByFidRequest`](protobufs.md#reactionsbyfidrequest), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => ReactionsByFidRequest |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => ReactionsByFidRequest |
-| `toJSON` | (`message`: [`ReactionsByFidRequest`](protobufs.md#reactionsbyfidrequest)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`ReactionsByFidRequest`](protobufs.md#reactionsbyfidrequest), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`ReactionsByFidRequest`](protobufs.md#reactionsbyfidrequest)) =>  |
 
 ___
 
@@ -1440,12 +1440,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => RevokeMessageBody |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => RevokeMessageBody |
-| `encode` | (`message`: [`RevokeMessageBody`](protobufs.md#revokemessagebody), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => RevokeMessageBody |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => RevokeMessageBody |
-| `toJSON` | (`message`: [`RevokeMessageBody`](protobufs.md#revokemessagebody)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`RevokeMessageBody`](protobufs.md#revokemessagebody), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`RevokeMessageBody`](protobufs.md#revokemessagebody)) =>  |
 
 ___
 
@@ -1457,12 +1457,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => RevokeSignerJobPayload |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => RevokeSignerJobPayload |
-| `encode` | (`message`: [`RevokeSignerJobPayload`](protobufs.md#revokesignerjobpayload), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => RevokeSignerJobPayload |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => RevokeSignerJobPayload |
-| `toJSON` | (`message`: [`RevokeSignerJobPayload`](protobufs.md#revokesignerjobpayload)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`RevokeSignerJobPayload`](protobufs.md#revokesignerjobpayload), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`RevokeSignerJobPayload`](protobufs.md#revokesignerjobpayload)) =>  |
 
 ___
 
@@ -1474,12 +1474,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => SignerBody |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => SignerBody |
-| `encode` | (`message`: [`SignerBody`](protobufs.md#signerbody), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => SignerBody |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => SignerBody |
-| `toJSON` | (`message`: [`SignerBody`](protobufs.md#signerbody)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`SignerBody`](protobufs.md#signerbody), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`SignerBody`](protobufs.md#signerbody)) =>  |
 
 ___
 
@@ -1491,12 +1491,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => SignerRequest |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => SignerRequest |
-| `encode` | (`message`: [`SignerRequest`](protobufs.md#signerrequest), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => SignerRequest |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => SignerRequest |
-| `toJSON` | (`message`: [`SignerRequest`](protobufs.md#signerrequest)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`SignerRequest`](protobufs.md#signerrequest), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`SignerRequest`](protobufs.md#signerrequest)) =>  |
 
 ___
 
@@ -1508,12 +1508,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => SubscribeRequest |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => SubscribeRequest |
-| `encode` | (`message`: [`SubscribeRequest`](protobufs.md#subscriberequest), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => SubscribeRequest |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => SubscribeRequest |
-| `toJSON` | (`message`: [`SubscribeRequest`](protobufs.md#subscriberequest)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`SubscribeRequest`](protobufs.md#subscriberequest), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`SubscribeRequest`](protobufs.md#subscriberequest)) =>  |
 
 ___
 
@@ -1525,12 +1525,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => SyncIds |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => SyncIds |
-| `encode` | (`message`: [`SyncIds`](protobufs.md#syncids), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => SyncIds |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => SyncIds |
-| `toJSON` | (`message`: [`SyncIds`](protobufs.md#syncids)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`SyncIds`](protobufs.md#syncids), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`SyncIds`](protobufs.md#syncids)) =>  |
 
 ___
 
@@ -1542,12 +1542,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => TrieNodeMetadataResponse |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => TrieNodeMetadataResponse |
-| `encode` | (`message`: [`TrieNodeMetadataResponse`](protobufs.md#trienodemetadataresponse), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => TrieNodeMetadataResponse |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => TrieNodeMetadataResponse |
-| `toJSON` | (`message`: [`TrieNodeMetadataResponse`](protobufs.md#trienodemetadataresponse)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`TrieNodeMetadataResponse`](protobufs.md#trienodemetadataresponse), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`TrieNodeMetadataResponse`](protobufs.md#trienodemetadataresponse)) =>  |
 
 ___
 
@@ -1559,12 +1559,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => TrieNodePrefix |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => TrieNodePrefix |
-| `encode` | (`message`: [`TrieNodePrefix`](protobufs.md#trienodeprefix), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => TrieNodePrefix |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => TrieNodePrefix |
-| `toJSON` | (`message`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`TrieNodePrefix`](protobufs.md#trienodeprefix), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`TrieNodePrefix`](protobufs.md#trienodeprefix)) =>  |
 
 ___
 
@@ -1576,12 +1576,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => TrieNodeSnapshotResponse |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => TrieNodeSnapshotResponse |
-| `encode` | (`message`: [`TrieNodeSnapshotResponse`](protobufs.md#trienodesnapshotresponse), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => TrieNodeSnapshotResponse |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => TrieNodeSnapshotResponse |
-| `toJSON` | (`message`: [`TrieNodeSnapshotResponse`](protobufs.md#trienodesnapshotresponse)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`TrieNodeSnapshotResponse`](protobufs.md#trienodesnapshotresponse), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`TrieNodeSnapshotResponse`](protobufs.md#trienodesnapshotresponse)) =>  |
 
 ___
 
@@ -1593,12 +1593,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => UpdateNameRegistryEventExpiryJobPayload |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => UpdateNameRegistryEventExpiryJobPayload |
-| `encode` | (`message`: [`UpdateNameRegistryEventExpiryJobPayload`](protobufs.md#updatenameregistryeventexpiryjobpayload), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => UpdateNameRegistryEventExpiryJobPayload |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => UpdateNameRegistryEventExpiryJobPayload |
-| `toJSON` | (`message`: [`UpdateNameRegistryEventExpiryJobPayload`](protobufs.md#updatenameregistryeventexpiryjobpayload)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`UpdateNameRegistryEventExpiryJobPayload`](protobufs.md#updatenameregistryeventexpiryjobpayload), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`UpdateNameRegistryEventExpiryJobPayload`](protobufs.md#updatenameregistryeventexpiryjobpayload)) =>  |
 
 ___
 
@@ -1610,12 +1610,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => UserDataBody |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => UserDataBody |
-| `encode` | (`message`: [`UserDataBody`](protobufs.md#userdatabody), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => UserDataBody |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => UserDataBody |
-| `toJSON` | (`message`: [`UserDataBody`](protobufs.md#userdatabody)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`UserDataBody`](protobufs.md#userdatabody), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`UserDataBody`](protobufs.md#userdatabody)) =>  |
 
 ___
 
@@ -1627,12 +1627,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => UserDataRequest |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => UserDataRequest |
-| `encode` | (`message`: [`UserDataRequest`](protobufs.md#userdatarequest), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => UserDataRequest |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => UserDataRequest |
-| `toJSON` | (`message`: [`UserDataRequest`](protobufs.md#userdatarequest)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`UserDataRequest`](protobufs.md#userdatarequest), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`UserDataRequest`](protobufs.md#userdatarequest)) =>  |
 
 ___
 
@@ -1644,12 +1644,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => VerificationAddEthAddressBody |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => VerificationAddEthAddressBody |
-| `encode` | (`message`: [`VerificationAddEthAddressBody`](protobufs.md#verificationaddethaddressbody), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => VerificationAddEthAddressBody |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => VerificationAddEthAddressBody |
-| `toJSON` | (`message`: [`VerificationAddEthAddressBody`](protobufs.md#verificationaddethaddressbody)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`VerificationAddEthAddressBody`](protobufs.md#verificationaddethaddressbody), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`VerificationAddEthAddressBody`](protobufs.md#verificationaddethaddressbody)) =>  |
 
 ___
 
@@ -1661,12 +1661,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => VerificationRemoveBody |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => VerificationRemoveBody |
-| `encode` | (`message`: [`VerificationRemoveBody`](protobufs.md#verificationremovebody), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => VerificationRemoveBody |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => VerificationRemoveBody |
-| `toJSON` | (`message`: [`VerificationRemoveBody`](protobufs.md#verificationremovebody)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`VerificationRemoveBody`](protobufs.md#verificationremovebody), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`VerificationRemoveBody`](protobufs.md#verificationremovebody)) =>  |
 
 ___
 
@@ -1678,18 +1678,18 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `create` | <I\>(`base?`: `I`) => VerificationRequest |
-| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) => VerificationRequest |
-| `encode` | (`message`: [`VerificationRequest`](protobufs.md#verificationrequest), `writer?`: `Writer`) => Writer |
-| `fromJSON` | (`object`: `any`) => VerificationRequest |
-| `fromPartial` | <I_1\>(`object`: `I_1`) => VerificationRequest |
-| `toJSON` | (`message`: [`VerificationRequest`](protobufs.md#verificationrequest)) => unknown |
+| `create` | <I\>(`base?`: `I`) =>  |
+| `decode` | (`input`: `Reader` \| `Uint8Array`, `length?`: `number`) =>  |
+| `encode` | (`message`: [`VerificationRequest`](protobufs.md#verificationrequest), `writer?`: `Writer`) =>  |
+| `fromJSON` | (`object`: `any`) =>  |
+| `fromPartial` | <I_1\>(`object`: `I_1`) =>  |
+| `toJSON` | (`message`: [`VerificationRequest`](protobufs.md#verificationrequest)) =>  |
 
 ## Functions
 
 ### farcasterNetworkFromJSON
 
-▸ **farcasterNetworkFromJSON**(`object`): FarcasterNetwork
+▸ **farcasterNetworkFromJSON**(`object`)
 
 #### Parameters
 
@@ -1697,15 +1697,11 @@ ___
 | :------ | :------ |
 | `object` | `any` |
 
-#### Returns
-
-FarcasterNetwork
-
 ___
 
 ### farcasterNetworkToJSON
 
-▸ **farcasterNetworkToJSON**(`object`): string
+▸ **farcasterNetworkToJSON**(`object`)
 
 #### Parameters
 
@@ -1713,31 +1709,23 @@ ___
 | :------ | :------ |
 | `object` | [`FarcasterNetwork`](../enums/protobufs.FarcasterNetwork.md) |
 
-#### Returns
-
-string
-
 ___
 
 ### getAdminClient
 
-▸ **getAdminClient**(`address`): AdminServiceClient
+▸ **getAdminClient**(`address`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `address` | `string` |
-
-#### Returns
-
-AdminServiceClient
 
 ___
 
 ### getClient
 
-▸ **getClient**(`address`): HubServiceClient
+▸ **getClient**(`address`)
 
 #### Parameters
 
@@ -1745,25 +1733,17 @@ ___
 | :------ | :------ |
 | `address` | `string` |
 
-#### Returns
-
-HubServiceClient
-
 ___
 
 ### getServer
 
-▸ **getServer**(): Server
-
-#### Returns
-
-Server
+▸ **getServer**()
 
 ___
 
 ### gossipVersionFromJSON
 
-▸ **gossipVersionFromJSON**(`object`): GossipVersion
+▸ **gossipVersionFromJSON**(`object`)
 
 #### Parameters
 
@@ -1771,15 +1751,11 @@ ___
 | :------ | :------ |
 | `object` | `any` |
 
-#### Returns
-
-GossipVersion
-
 ___
 
 ### gossipVersionToJSON
 
-▸ **gossipVersionToJSON**(`object`): string
+▸ **gossipVersionToJSON**(`object`)
 
 #### Parameters
 
@@ -1787,15 +1763,11 @@ ___
 | :------ | :------ |
 | `object` | [`GossipVersion`](../enums/protobufs.GossipVersion.md) |
 
-#### Returns
-
-string
-
 ___
 
 ### hashSchemeFromJSON
 
-▸ **hashSchemeFromJSON**(`object`): HashScheme
+▸ **hashSchemeFromJSON**(`object`)
 
 #### Parameters
 
@@ -1803,15 +1775,11 @@ ___
 | :------ | :------ |
 | `object` | `any` |
 
-#### Returns
-
-HashScheme
-
 ___
 
 ### hashSchemeToJSON
 
-▸ **hashSchemeToJSON**(`object`): string
+▸ **hashSchemeToJSON**(`object`)
 
 #### Parameters
 
@@ -1819,15 +1787,11 @@ ___
 | :------ | :------ |
 | `object` | [`HashScheme`](../enums/protobufs.HashScheme.md) |
 
-#### Returns
-
-string
-
 ___
 
 ### hubEventTypeFromJSON
 
-▸ **hubEventTypeFromJSON**(`object`): HubEventType
+▸ **hubEventTypeFromJSON**(`object`)
 
 #### Parameters
 
@@ -1835,15 +1799,11 @@ ___
 | :------ | :------ |
 | `object` | `any` |
 
-#### Returns
-
-HubEventType
-
 ___
 
 ### hubEventTypeToJSON
 
-▸ **hubEventTypeToJSON**(`object`): string
+▸ **hubEventTypeToJSON**(`object`)
 
 #### Parameters
 
@@ -1851,15 +1811,11 @@ ___
 | :------ | :------ |
 | `object` | [`HubEventType`](../enums/protobufs.HubEventType.md) |
 
-#### Returns
-
-string
-
 ___
 
 ### idRegistryEventTypeFromJSON
 
-▸ **idRegistryEventTypeFromJSON**(`object`): IdRegistryEventType
+▸ **idRegistryEventTypeFromJSON**(`object`)
 
 #### Parameters
 
@@ -1867,15 +1823,11 @@ ___
 | :------ | :------ |
 | `object` | `any` |
 
-#### Returns
-
-IdRegistryEventType
-
 ___
 
 ### idRegistryEventTypeToJSON
 
-▸ **idRegistryEventTypeToJSON**(`object`): string
+▸ **idRegistryEventTypeToJSON**(`object`)
 
 #### Parameters
 
@@ -1883,15 +1835,11 @@ ___
 | :------ | :------ |
 | `object` | [`IdRegistryEventType`](../enums/protobufs.IdRegistryEventType.md) |
 
-#### Returns
-
-string
-
 ___
 
 ### isCastAddData
 
-▸ **isCastAddData**(`data`): data is CastAddData
+▸ **isCastAddData**(`data`)
 
 Message typeguards
 
@@ -1901,15 +1849,11 @@ Message typeguards
 | :------ | :------ |
 | `data` | [`MessageData`](protobufs.md#messagedata) |
 
-#### Returns
-
-data is CastAddData
-
 ___
 
 ### isCastAddMessage
 
-▸ **isCastAddMessage**(`message`): message is CastAddMessage
+▸ **isCastAddMessage**(`message`)
 
 #### Parameters
 
@@ -1917,15 +1861,11 @@ ___
 | :------ | :------ |
 | `message` | [`Message`](protobufs.md#message) |
 
-#### Returns
-
-message is CastAddMessage
-
 ___
 
 ### isCastRemoveData
 
-▸ **isCastRemoveData**(`data`): data is CastRemoveData
+▸ **isCastRemoveData**(`data`)
 
 #### Parameters
 
@@ -1933,15 +1873,11 @@ ___
 | :------ | :------ |
 | `data` | [`MessageData`](protobufs.md#messagedata) |
 
-#### Returns
-
-data is CastRemoveData
-
 ___
 
 ### isCastRemoveMessage
 
-▸ **isCastRemoveMessage**(`message`): message is CastRemoveMessage
+▸ **isCastRemoveMessage**(`message`)
 
 #### Parameters
 
@@ -1949,15 +1885,11 @@ ___
 | :------ | :------ |
 | `message` | [`Message`](protobufs.md#message) |
 
-#### Returns
-
-message is CastRemoveMessage
-
 ___
 
 ### isMergeIdRegistryEventHubEvent
 
-▸ **isMergeIdRegistryEventHubEvent**(`event`): event is MergeIdRegistryEventHubEvent
+▸ **isMergeIdRegistryEventHubEvent**(`event`)
 
 #### Parameters
 
@@ -1965,15 +1897,11 @@ ___
 | :------ | :------ |
 | `event` | [`HubEvent`](protobufs.md#hubevent) |
 
-#### Returns
-
-event is MergeIdRegistryEventHubEvent
-
 ___
 
 ### isMergeMessageHubEvent
 
-▸ **isMergeMessageHubEvent**(`event`): event is MergeMessageHubEvent
+▸ **isMergeMessageHubEvent**(`event`)
 
 Hub event typeguards
 
@@ -1983,63 +1911,47 @@ Hub event typeguards
 | :------ | :------ |
 | `event` | [`HubEvent`](protobufs.md#hubevent) |
 
-#### Returns
-
-event is MergeMessageHubEvent
-
 ___
 
 ### isMergeNameRegistryEventHubEvent
 
-▸ **isMergeNameRegistryEventHubEvent**(`event`): event is MergeNameRegistryEventHubEvent
+▸ **isMergeNameRegistryEventHubEvent**(`event`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | [`HubEvent`](protobufs.md#hubevent) |
-
-#### Returns
-
-event is MergeNameRegistryEventHubEvent
 
 ___
 
 ### isPruneMessageHubEvent
 
-▸ **isPruneMessageHubEvent**(`event`): event is PruneMessageHubEvent
+▸ **isPruneMessageHubEvent**(`event`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `event` | [`HubEvent`](protobufs.md#hubevent) |
-
-#### Returns
-
-event is PruneMessageHubEvent
 
 ___
 
 ### isReactionAddData
 
-▸ **isReactionAddData**(`data`): data is ReactionAddData
+▸ **isReactionAddData**(`data`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `data` | [`MessageData`](protobufs.md#messagedata) |
-
-#### Returns
-
-data is ReactionAddData
 
 ___
 
 ### isReactionAddMessage
 
-▸ **isReactionAddMessage**(`message`): message is ReactionAddMessage
+▸ **isReactionAddMessage**(`message`)
 
 #### Parameters
 
@@ -2047,15 +1959,11 @@ ___
 | :------ | :------ |
 | `message` | [`Message`](protobufs.md#message) |
 
-#### Returns
-
-message is ReactionAddMessage
-
 ___
 
 ### isReactionRemoveData
 
-▸ **isReactionRemoveData**(`data`): data is ReactionRemoveData
+▸ **isReactionRemoveData**(`data`)
 
 #### Parameters
 
@@ -2063,15 +1971,11 @@ ___
 | :------ | :------ |
 | `data` | [`MessageData`](protobufs.md#messagedata) |
 
-#### Returns
-
-data is ReactionRemoveData
-
 ___
 
 ### isReactionRemoveMessage
 
-▸ **isReactionRemoveMessage**(`message`): message is ReactionRemoveMessage
+▸ **isReactionRemoveMessage**(`message`)
 
 #### Parameters
 
@@ -2079,15 +1983,11 @@ ___
 | :------ | :------ |
 | `message` | [`Message`](protobufs.md#message) |
 
-#### Returns
-
-message is ReactionRemoveMessage
-
 ___
 
 ### isRevokeMessageHubEvent
 
-▸ **isRevokeMessageHubEvent**(`event`): event is RevokeMessageHubEvent
+▸ **isRevokeMessageHubEvent**(`event`)
 
 #### Parameters
 
@@ -2095,127 +1995,95 @@ ___
 | :------ | :------ |
 | `event` | [`HubEvent`](protobufs.md#hubevent) |
 
-#### Returns
-
-event is RevokeMessageHubEvent
-
 ___
 
 ### isSignerAddData
 
-▸ **isSignerAddData**(`data`): data is SignerAddData
+▸ **isSignerAddData**(`data`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `data` | [`MessageData`](protobufs.md#messagedata) |
-
-#### Returns
-
-data is SignerAddData
 
 ___
 
 ### isSignerAddMessage
 
-▸ **isSignerAddMessage**(`message`): message is SignerAddMessage
+▸ **isSignerAddMessage**(`message`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `message` | [`Message`](protobufs.md#message) |
-
-#### Returns
-
-message is SignerAddMessage
 
 ___
 
 ### isSignerRemoveData
 
-▸ **isSignerRemoveData**(`data`): data is SignerRemoveData
+▸ **isSignerRemoveData**(`data`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `data` | [`MessageData`](protobufs.md#messagedata) |
-
-#### Returns
-
-data is SignerRemoveData
 
 ___
 
 ### isSignerRemoveMessage
 
-▸ **isSignerRemoveMessage**(`message`): message is SignerRemoveMessage
+▸ **isSignerRemoveMessage**(`message`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `message` | [`Message`](protobufs.md#message) |
-
-#### Returns
-
-message is SignerRemoveMessage
 
 ___
 
 ### isUserDataAddData
 
-▸ **isUserDataAddData**(`data`): data is UserDataAddData
+▸ **isUserDataAddData**(`data`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `data` | [`MessageData`](protobufs.md#messagedata) |
-
-#### Returns
-
-data is UserDataAddData
 
 ___
 
 ### isUserDataAddMessage
 
-▸ **isUserDataAddMessage**(`message`): message is UserDataAddMessage
+▸ **isUserDataAddMessage**(`message`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `message` | [`Message`](protobufs.md#message) |
-
-#### Returns
-
-message is UserDataAddMessage
 
 ___
 
 ### isVerificationAddEthAddressData
 
-▸ **isVerificationAddEthAddressData**(`data`): data is VerificationAddEthAddressData
+▸ **isVerificationAddEthAddressData**(`data`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `data` | [`MessageData`](protobufs.md#messagedata) |
-
-#### Returns
-
-data is VerificationAddEthAddressData
 
 ___
 
 ### isVerificationAddEthAddressMessage
 
-▸ **isVerificationAddEthAddressMessage**(`message`): message is VerificationAddEthAddressMessage
+▸ **isVerificationAddEthAddressMessage**(`message`)
 
 #### Parameters
 
@@ -2223,15 +2091,11 @@ ___
 | :------ | :------ |
 | `message` | [`Message`](protobufs.md#message) |
 
-#### Returns
-
-message is VerificationAddEthAddressMessage
-
 ___
 
 ### isVerificationRemoveData
 
-▸ **isVerificationRemoveData**(`data`): data is VerificationRemoveData
+▸ **isVerificationRemoveData**(`data`)
 
 #### Parameters
 
@@ -2239,15 +2103,11 @@ ___
 | :------ | :------ |
 | `data` | [`MessageData`](protobufs.md#messagedata) |
 
-#### Returns
-
-data is VerificationRemoveData
-
 ___
 
 ### isVerificationRemoveMessage
 
-▸ **isVerificationRemoveMessage**(`message`): message is VerificationRemoveMessage
+▸ **isVerificationRemoveMessage**(`message`)
 
 #### Parameters
 
@@ -2255,15 +2115,11 @@ ___
 | :------ | :------ |
 | `message` | [`Message`](protobufs.md#message) |
 
-#### Returns
-
-message is VerificationRemoveMessage
-
 ___
 
 ### messageTypeFromJSON
 
-▸ **messageTypeFromJSON**(`object`): MessageType
+▸ **messageTypeFromJSON**(`object`)
 
 #### Parameters
 
@@ -2271,15 +2127,11 @@ ___
 | :------ | :------ |
 | `object` | `any` |
 
-#### Returns
-
-MessageType
-
 ___
 
 ### messageTypeToJSON
 
-▸ **messageTypeToJSON**(`object`): string
+▸ **messageTypeToJSON**(`object`)
 
 #### Parameters
 
@@ -2287,15 +2139,11 @@ ___
 | :------ | :------ |
 | `object` | [`MessageType`](../enums/protobufs.MessageType.md) |
 
-#### Returns
-
-string
-
 ___
 
 ### nameRegistryEventTypeFromJSON
 
-▸ **nameRegistryEventTypeFromJSON**(`object`): NameRegistryEventType
+▸ **nameRegistryEventTypeFromJSON**(`object`)
 
 #### Parameters
 
@@ -2303,15 +2151,11 @@ ___
 | :------ | :------ |
 | `object` | `any` |
 
-#### Returns
-
-NameRegistryEventType
-
 ___
 
 ### nameRegistryEventTypeToJSON
 
-▸ **nameRegistryEventTypeToJSON**(`object`): string
+▸ **nameRegistryEventTypeToJSON**(`object`)
 
 #### Parameters
 
@@ -2319,15 +2163,11 @@ ___
 | :------ | :------ |
 | `object` | [`NameRegistryEventType`](../enums/protobufs.NameRegistryEventType.md) |
 
-#### Returns
-
-string
-
 ___
 
 ### reactionTypeFromJSON
 
-▸ **reactionTypeFromJSON**(`object`): ReactionType
+▸ **reactionTypeFromJSON**(`object`)
 
 #### Parameters
 
@@ -2335,15 +2175,11 @@ ___
 | :------ | :------ |
 | `object` | `any` |
 
-#### Returns
-
-ReactionType
-
 ___
 
 ### reactionTypeToJSON
 
-▸ **reactionTypeToJSON**(`object`): string
+▸ **reactionTypeToJSON**(`object`)
 
 #### Parameters
 
@@ -2351,15 +2187,11 @@ ___
 | :------ | :------ |
 | `object` | [`ReactionType`](../enums/protobufs.ReactionType.md) |
 
-#### Returns
-
-string
-
 ___
 
 ### signatureSchemeFromJSON
 
-▸ **signatureSchemeFromJSON**(`object`): SignatureScheme
+▸ **signatureSchemeFromJSON**(`object`)
 
 #### Parameters
 
@@ -2367,15 +2199,11 @@ ___
 | :------ | :------ |
 | `object` | `any` |
 
-#### Returns
-
-SignatureScheme
-
 ___
 
 ### signatureSchemeToJSON
 
-▸ **signatureSchemeToJSON**(`object`): string
+▸ **signatureSchemeToJSON**(`object`)
 
 #### Parameters
 
@@ -2383,15 +2211,11 @@ ___
 | :------ | :------ |
 | `object` | [`SignatureScheme`](../enums/protobufs.SignatureScheme.md) |
 
-#### Returns
-
-string
-
 ___
 
 ### userDataTypeFromJSON
 
-▸ **userDataTypeFromJSON**(`object`): UserDataType
+▸ **userDataTypeFromJSON**(`object`)
 
 #### Parameters
 
@@ -2399,22 +2223,14 @@ ___
 | :------ | :------ |
 | `object` | `any` |
 
-#### Returns
-
-UserDataType
-
 ___
 
 ### userDataTypeToJSON
 
-▸ **userDataTypeToJSON**(`object`): string
+▸ **userDataTypeToJSON**(`object`)
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `object` | [`UserDataType`](../enums/protobufs.UserDataType.md) |
-
-#### Returns
-
-string

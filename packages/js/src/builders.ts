@@ -229,6 +229,10 @@ export const makeMessageWithSignature = async (
 /**
  * Make a message to add a cast
  *
+ * **`signature`**
+ *
+ * `makeCastAdd(bodyJson, dataOptions, signer): HubAsyncResult<CastAddMessage>`
+ *
  * @example
  * ```typescript
  * import {
