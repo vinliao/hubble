@@ -75,7 +75,7 @@ const client = new Client(...)
 
 ### getAllCastMessagesByFid
 
-▸ **getAllCastMessagesByFid**(`fid`)
+▸ **getAllCastMessagesByFid**(`fid`): HubAsyncResult<(Readonly<Object\> \| Readonly<Object\>)[]\>
 
 TODO DOCS: description
 
@@ -98,12 +98,18 @@ console.log(result)
 | Name | Type |
 | :------ | :------ |
 | `fid` | `number` |
+
+#### Returns
+
+HubAsyncResult<(Readonly<Object\> \| Readonly<Object\>)[]\>
+
+...
 
 ___
 
 ### getAllReactionMessagesByFid
 
-▸ **getAllReactionMessagesByFid**(`fid`)
+▸ **getAllReactionMessagesByFid**(`fid`): HubAsyncResult<(Readonly<Object\> \| Readonly<Object\>)[]\>
 
 TODO DOCS: description
 
@@ -126,12 +132,18 @@ console.log(result)
 | Name | Type |
 | :------ | :------ |
 | `fid` | `number` |
+
+#### Returns
+
+HubAsyncResult<(Readonly<Object\> \| Readonly<Object\>)[]\>
+
+...
 
 ___
 
 ### getAllSignerMessagesByFid
 
-▸ **getAllSignerMessagesByFid**(`fid`)
+▸ **getAllSignerMessagesByFid**(`fid`): HubAsyncResult<(Readonly<Object\> \| Readonly<Object\>)[]\>
 
 TODO DOCS: description
 
@@ -154,12 +166,18 @@ console.log(result)
 | Name | Type |
 | :------ | :------ |
 | `fid` | `number` |
+
+#### Returns
+
+HubAsyncResult<(Readonly<Object\> \| Readonly<Object\>)[]\>
+
+...
 
 ___
 
 ### getAllUserDataMessagesByFid
 
-▸ **getAllUserDataMessagesByFid**(`fid`)
+▸ **getAllUserDataMessagesByFid**(`fid`): HubAsyncResult<Readonly<Object\>[]\>
 
 TODO DOCS: description
 
@@ -182,12 +200,18 @@ console.log(result)
 | Name | Type |
 | :------ | :------ |
 | `fid` | `number` |
+
+#### Returns
+
+HubAsyncResult<Readonly<Object\>[]\>
+
+...
 
 ___
 
 ### getAllVerificationMessagesByFid
 
-▸ **getAllVerificationMessagesByFid**(`fid`)
+▸ **getAllVerificationMessagesByFid**(`fid`): HubAsyncResult<(Readonly<Object\> \| Readonly<Object\>)[]\>
 
 TODO DOCS: description
 
@@ -211,11 +235,17 @@ console.log(result)
 | :------ | :------ |
 | `fid` | `number` |
 
+#### Returns
+
+HubAsyncResult<(Readonly<Object\> \| Readonly<Object\>)[]\>
+
+...
+
 ___
 
 ### getCast
 
-▸ **getCast**(`fid`, `hash`)
+▸ **getCast**(`fid`, `hash`): HubAsyncResult<Readonly<Object\>\>
 
 TODO DOCS: description
 
@@ -240,11 +270,17 @@ console.log(result)
 | `fid` | `number` |
 | `hash` | `string` |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>\>
+
+...
+
 ___
 
 ### getCastsByFid
 
-▸ **getCastsByFid**(`fid`)
+▸ **getCastsByFid**(`fid`): HubAsyncResult<Readonly<Object\>[]\>
 
 TODO DOCS: description
 
@@ -268,11 +304,17 @@ console.log(result)
 | :------ | :------ |
 | `fid` | `number` |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>[]\>
+
+...
+
 ___
 
 ### getCastsByMention
 
-▸ **getCastsByMention**(`mentionFid`)
+▸ **getCastsByMention**(`mentionFid`): HubAsyncResult<Readonly<Object\>[]\>
 
 TODO DOCS: description
 
@@ -296,11 +338,17 @@ console.log(result)
 | :------ | :------ |
 | `mentionFid` | `number` |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>[]\>
+
+...
+
 ___
 
 ### getCastsByParent
 
-▸ **getCastsByParent**(`parent`)
+▸ **getCastsByParent**(`parent`): HubAsyncResult<Readonly<Object\>[]\>
 
 TODO DOCS: description
 
@@ -324,11 +372,17 @@ console.log(result)
 | :------ | :------ |
 | `parent` | [`CastId`](../modules/types.md#castid) |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>[]\>
+
+...
+
 ___
 
 ### getIdRegistryEvent
 
-▸ **getIdRegistryEvent**(`fid`)
+▸ **getIdRegistryEvent**(`fid`): HubAsyncResult<Readonly<Object\>\>
 
 TODO DOCS: description
 
@@ -352,11 +406,17 @@ console.log(result)
 | :------ | :------ |
 | `fid` | `number` |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>\>
+
+...
+
 ___
 
 ### getNameRegistryEvent
 
-▸ **getNameRegistryEvent**(`fname`)
+▸ **getNameRegistryEvent**(`fname`): HubAsyncResult<Readonly<Object\>\>
 
 TODO DOCS: description
 
@@ -380,11 +440,17 @@ console.log(result)
 | :------ | :------ |
 | `fname` | `string` |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>\>
+
+...
+
 ___
 
 ### getReaction
 
-▸ **getReaction**(`fid`, `type`, `cast`)
+▸ **getReaction**(`fid`, `type`, `cast`): HubAsyncResult<Readonly<Object\>\>
 
 TODO DOCS: description
 
@@ -410,11 +476,17 @@ console.log(result)
 | `type` | [`ReactionType`](../enums/protobufs.ReactionType.md) |
 | `cast` | [`CastId`](../modules/types.md#castid) |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>\>
+
+...
+
 ___
 
 ### getReactionsByCast
 
-▸ **getReactionsByCast**(`cast`, `type?`)
+▸ **getReactionsByCast**(`cast`, `type?`): HubAsyncResult<Readonly<Object\>[]\>
 
 TODO DOCS: description
 
@@ -439,11 +511,17 @@ console.log(result)
 | `cast` | [`CastId`](../modules/types.md#castid) |
 | `type?` | [`ReactionType`](../enums/protobufs.ReactionType.md) |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>[]\>
+
+...
+
 ___
 
 ### getReactionsByFid
 
-▸ **getReactionsByFid**(`fid`, `type?`)
+▸ **getReactionsByFid**(`fid`, `type?`): HubAsyncResult<Readonly<Object\>[]\>
 
 TODO DOCS: description
 
@@ -468,11 +546,17 @@ console.log(result)
 | `fid` | `number` |
 | `type?` | [`ReactionType`](../enums/protobufs.ReactionType.md) |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>[]\>
+
+...
+
 ___
 
 ### getSigner
 
-▸ **getSigner**(`fid`, `signer`)
+▸ **getSigner**(`fid`, `signer`): HubAsyncResult<Readonly<Object\>\>
 
 TODO DOCS: description
 
@@ -497,11 +581,17 @@ console.log(result)
 | `fid` | `number` |
 | `signer` | `string` |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>\>
+
+...
+
 ___
 
 ### getSignersByFid
 
-▸ **getSignersByFid**(`fid`)
+▸ **getSignersByFid**(`fid`): HubAsyncResult<Readonly<Object\>[]\>
 
 TODO DOCS: description
 
@@ -525,11 +615,17 @@ console.log(result)
 | :------ | :------ |
 | `fid` | `number` |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>[]\>
+
+...
+
 ___
 
 ### getUserData
 
-▸ **getUserData**(`fid`, `type`)
+▸ **getUserData**(`fid`, `type`): HubAsyncResult<Readonly<Object\>\>
 
 TODO DOCS: description
 
@@ -554,11 +650,17 @@ console.log(result)
 | `fid` | `number` |
 | `type` | [`UserDataType`](../enums/protobufs.UserDataType.md) |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>\>
+
+...
+
 ___
 
 ### getUserDataByFid
 
-▸ **getUserDataByFid**(`fid`)
+▸ **getUserDataByFid**(`fid`): HubAsyncResult<Readonly<Object\>[]\>
 
 TODO DOCS: description
 
@@ -582,11 +684,17 @@ console.log(result)
 | :------ | :------ |
 | `fid` | `number` |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>[]\>
+
+...
+
 ___
 
 ### getVerification
 
-▸ **getVerification**(`fid`, `address`)
+▸ **getVerification**(`fid`, `address`): HubAsyncResult<Readonly<Object\>\>
 
 TODO DOCS: description
 
@@ -611,11 +719,17 @@ console.log(result)
 | `fid` | `number` |
 | `address` | `string` |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>\>
+
+...
+
 ___
 
 ### getVerificationsByFid
 
-▸ **getVerificationsByFid**(`fid`)
+▸ **getVerificationsByFid**(`fid`): HubAsyncResult<Readonly<Object\>[]\>
 
 TODO DOCS: description
 
@@ -639,11 +753,17 @@ console.log(result)
 | :------ | :------ |
 | `fid` | `number` |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>[]\>
+
+...
+
 ___
 
 ### submitMessage
 
-▸ **submitMessage**(`message`)
+▸ **submitMessage**(`message`): HubAsyncResult<Readonly<Object\>\>
 
 TODO DOCS: description
 
@@ -667,11 +787,17 @@ console.log(result)
 | :------ | :------ |
 | `message` | `Readonly`<{ `_protobuf`: [`Message`](../modules/protobufs.md#message) ; `data`: [`MessageData`](../modules/types.md#messagedata)<[`MessageBody`](../modules/types.md#messagebody), [`MessageType`](../enums/protobufs.MessageType.md)\> ; `hash`: `string` ; `hashScheme`: [`HashScheme`](../enums/protobufs.HashScheme.md) ; `signature`: `string` ; `signatureScheme`: [`SignatureScheme`](../enums/protobufs.SignatureScheme.md) ; `signer`: `string`  }\> |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>\>
+
+...
+
 ___
 
 ### subscribe
 
-▸ **subscribe**(`filters?`)
+▸ **subscribe**(`filters?`): Promise<HubResult<ClientReadableStream<HubEvent\>\>\>
 
 TODO DOCS: description
 
@@ -696,3 +822,9 @@ console.log(result)
 | Name | Type |
 | :------ | :------ |
 | `filters` | [`EventFilters`](../modules.md#eventfilters) |
+
+#### Returns
+
+Promise<HubResult<ClientReadableStream<HubEvent\>\>\>
+
+...

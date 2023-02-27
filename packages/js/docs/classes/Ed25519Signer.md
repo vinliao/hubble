@@ -84,7 +84,7 @@ BaseEd25519Signer.signerKeyHex
 
 ### signMessageHash
 
-▸ **signMessageHash**(`hash`)
+▸ **signMessageHash**(`hash`): HubAsyncResult<Uint8Array\>
 
 Generates a 256-bit signature using from EdDSA key pair.
 
@@ -112,6 +112,12 @@ console.log(signature._unsafeUnwrap());
 | :------ | :------ | :------ |
 | `hash` | `Uint8Array` | The 256-bit hash of the message to be signed. |
 
+#### Returns
+
+HubAsyncResult<Uint8Array\>
+
+A HubAsyncResult containing the signature as a Uint8Array.
+
 #### Inherited from
 
 BaseEd25519Signer.signMessageHash
@@ -120,7 +126,7 @@ ___
 
 ### signMessageHashHex
 
-▸ **signMessageHashHex**(`hash`)
+▸ **signMessageHashHex**(`hash`): HubAsyncResult<string\>
 
 Generates a 256-bit hex signature from an EdDSA key pair for a given message hash in hex format.
 
@@ -148,11 +154,17 @@ console.log(signature._unsafeUnwrap()); // 0x9f1c7e13b9d0b8...
 | :------ | :------ | :------ |
 | `hash` | `string` | The hash of the message to be signed in hex format. |
 
+#### Returns
+
+HubAsyncResult<string\>
+
+A HubAsyncResult containing the signature in hex format.
+
 ___
 
 ### fromPrivateKey
 
-▸ `Static` **fromPrivateKey**(`privateKey`)
+▸ `Static` **fromPrivateKey**(`privateKey`): HubResult<Ed25519Signer\>
 
 Creates an Ed25519 signer from a private key.
 
@@ -171,6 +183,12 @@ const signer = Ed25519Signer.fromPrivateKey(privateKeyBytes)._unsafeUnwrap();
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `privateKey` | `Uint8Array` | The 32-byte private key to use for signing. |
+
+#### Returns
+
+HubResult<Ed25519Signer\>
+
+A HubResult containing an Ed25519Signer instance on success, or an error message on failure.
 
 #### Overrides
 

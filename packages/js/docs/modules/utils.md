@@ -46,7 +46,7 @@
 
 ### deserializeBlockHash
 
-▸ **deserializeBlockHash**(`bytes`)
+▸ **deserializeBlockHash**(`bytes`): HubResult<string\>
 
 Deserialize a block hash from a byte array to hex string.
 
@@ -56,11 +56,15 @@ Deserialize a block hash from a byte array to hex string.
 | :------ | :------ |
 | `bytes` | `Uint8Array` |
 
+#### Returns
+
+HubResult<string\>
+
 ___
 
 ### deserializeCastAddBody
 
-▸ **deserializeCastAddBody**(`protobuf`)
+▸ **deserializeCastAddBody**(`protobuf`): HubResult<CastAddBody\>
 
 #### Parameters
 
@@ -68,11 +72,15 @@ ___
 | :------ | :------ |
 | `protobuf` | [`CastAddBody`](protobufs.md#castaddbody) |
 
+#### Returns
+
+HubResult<CastAddBody\>
+
 ___
 
 ### deserializeCastId
 
-▸ **deserializeCastId**(`protobuf`)
+▸ **deserializeCastId**(`protobuf`): HubResult<CastId\>
 
 #### Parameters
 
@@ -80,11 +88,15 @@ ___
 | :------ | :------ |
 | `protobuf` | [`CastId`](protobufs.md#castid) |
 
+#### Returns
+
+HubResult<CastId\>
+
 ___
 
 ### deserializeCastRemoveBody
 
-▸ **deserializeCastRemoveBody**(`protobuf`)
+▸ **deserializeCastRemoveBody**(`protobuf`): HubResult<CastRemoveBody\>
 
 #### Parameters
 
@@ -92,11 +104,15 @@ ___
 | :------ | :------ |
 | `protobuf` | [`CastRemoveBody`](protobufs.md#castremovebody) |
 
+#### Returns
+
+HubResult<CastRemoveBody\>
+
 ___
 
 ### deserializeEd25519PublicKey
 
-▸ **deserializeEd25519PublicKey**(`publicKey`)
+▸ **deserializeEd25519PublicKey**(`publicKey`): HubResult<string\>
 
 #### Parameters
 
@@ -104,11 +120,15 @@ ___
 | :------ | :------ |
 | `publicKey` | `Uint8Array` |
 
+#### Returns
+
+HubResult<string\>
+
 ___
 
 ### deserializeEd25519Signature
 
-▸ **deserializeEd25519Signature**(`bytes`)
+▸ **deserializeEd25519Signature**(`bytes`): HubResult<string\>
 
 Deserialize an Ed25519 signature from a byte array to hex string.
 
@@ -118,11 +138,15 @@ Deserialize an Ed25519 signature from a byte array to hex string.
 | :------ | :------ |
 | `bytes` | `Uint8Array` |
 
+#### Returns
+
+HubResult<string\>
+
 ___
 
 ### deserializeEip712Signature
 
-▸ **deserializeEip712Signature**(`bytes`)
+▸ **deserializeEip712Signature**(`bytes`): HubResult<string\>
 
 Deserialize an EIP-712 signature from a byte array to hex string.
 
@@ -132,11 +156,15 @@ Deserialize an EIP-712 signature from a byte array to hex string.
 | :------ | :------ |
 | `bytes` | `Uint8Array` |
 
+#### Returns
+
+HubResult<string\>
+
 ___
 
 ### deserializeEthAddress
 
-▸ **deserializeEthAddress**(`ethAddress`)
+▸ **deserializeEthAddress**(`ethAddress`): HubResult<string\>
 
 #### Parameters
 
@@ -144,11 +172,15 @@ ___
 | :------ | :------ |
 | `ethAddress` | `Uint8Array` |
 
+#### Returns
+
+HubResult<string\>
+
 ___
 
 ### deserializeFname
 
-▸ **deserializeFname**(`fname`)
+▸ **deserializeFname**(`fname`): HubResult<string\>
 
 #### Parameters
 
@@ -156,11 +188,15 @@ ___
 | :------ | :------ |
 | `fname` | `Uint8Array` |
 
+#### Returns
+
+HubResult<string\>
+
 ___
 
 ### deserializeHubEvent
 
-▸ **deserializeHubEvent**(`protobuf`)
+▸ **deserializeHubEvent**(`protobuf`): HubResult<HubEvent\>
 
 #### Parameters
 
@@ -168,11 +204,15 @@ ___
 | :------ | :------ |
 | `protobuf` | [`HubEvent`](protobufs.md#hubevent) |
 
+#### Returns
+
+HubResult<HubEvent\>
+
 ___
 
 ### deserializeIdRegistryEvent
 
-▸ **deserializeIdRegistryEvent**(`protobuf`)
+▸ **deserializeIdRegistryEvent**(`protobuf`): HubResult<Readonly<Object\>\>
 
 #### Parameters
 
@@ -180,11 +220,15 @@ ___
 | :------ | :------ |
 | `protobuf` | [`IdRegistryEvent`](protobufs.md#idregistryevent) |
 
+#### Returns
+
+HubResult<Readonly<Object\>\>
+
 ___
 
 ### deserializeMessage
 
-▸ **deserializeMessage**(`protobuf`)
+▸ **deserializeMessage**(`protobuf`): HubResult<Readonly<Object\>\>
 
 #### Parameters
 
@@ -192,11 +236,15 @@ ___
 | :------ | :------ |
 | `protobuf` | [`Message`](protobufs.md#message) |
 
+#### Returns
+
+HubResult<Readonly<Object\>\>
+
 ___
 
 ### deserializeMessageData
 
-▸ **deserializeMessageData**(`protobuf`)
+▸ **deserializeMessageData**(`protobuf`): HubResult<MessageData<MessageBody, MessageType\>\>
 
 #### Parameters
 
@@ -204,11 +252,15 @@ ___
 | :------ | :------ |
 | `protobuf` | [`MessageData`](protobufs.md#messagedata) |
 
+#### Returns
+
+HubResult<MessageData<MessageBody, MessageType\>\>
+
 ___
 
 ### deserializeMessageHash
 
-▸ **deserializeMessageHash**(`bytes`)
+▸ **deserializeMessageHash**(`bytes`): HubResult<string\>
 
 Deserialize a message hash from a byte array to hex string.
 
@@ -218,11 +270,15 @@ Deserialize a message hash from a byte array to hex string.
 | :------ | :------ |
 | `bytes` | `Uint8Array` |
 
+#### Returns
+
+HubResult<string\>
+
 ___
 
 ### deserializeNameRegistryEvent
 
-▸ **deserializeNameRegistryEvent**(`protobuf`)
+▸ **deserializeNameRegistryEvent**(`protobuf`): HubResult<Readonly<Object\>\>
 
 #### Parameters
 
@@ -230,11 +286,15 @@ ___
 | :------ | :------ |
 | `protobuf` | [`NameRegistryEvent`](protobufs.md#nameregistryevent) |
 
+#### Returns
+
+HubResult<Readonly<Object\>\>
+
 ___
 
 ### deserializeReactionBody
 
-▸ **deserializeReactionBody**(`protobuf`)
+▸ **deserializeReactionBody**(`protobuf`): HubResult<ReactionBody\>
 
 #### Parameters
 
@@ -242,11 +302,15 @@ ___
 | :------ | :------ |
 | `protobuf` | [`ReactionBody`](protobufs.md#reactionbody) |
 
+#### Returns
+
+HubResult<ReactionBody\>
+
 ___
 
 ### deserializeSignerBody
 
-▸ **deserializeSignerBody**(`protobuf`)
+▸ **deserializeSignerBody**(`protobuf`): HubResult<SignerBody\>
 
 #### Parameters
 
@@ -254,11 +318,15 @@ ___
 | :------ | :------ |
 | `protobuf` | [`SignerBody`](protobufs.md#signerbody) |
 
+#### Returns
+
+HubResult<SignerBody\>
+
 ___
 
 ### deserializeTransactionHash
 
-▸ **deserializeTransactionHash**(`bytes`)
+▸ **deserializeTransactionHash**(`bytes`): HubResult<string\>
 
 Deserialize a transaction hash from a byte array to hex string.
 
@@ -268,11 +336,15 @@ Deserialize a transaction hash from a byte array to hex string.
 | :------ | :------ |
 | `bytes` | `Uint8Array` |
 
+#### Returns
+
+HubResult<string\>
+
 ___
 
 ### deserializeUserDataBody
 
-▸ **deserializeUserDataBody**(`protobuf`)
+▸ **deserializeUserDataBody**(`protobuf`): HubResult<UserDataBody\>
 
 #### Parameters
 
@@ -280,11 +352,15 @@ ___
 | :------ | :------ |
 | `protobuf` | [`UserDataBody`](protobufs.md#userdatabody) |
 
+#### Returns
+
+HubResult<UserDataBody\>
+
 ___
 
 ### deserializeVerificationAddEthAddressBody
 
-▸ **deserializeVerificationAddEthAddressBody**(`protobuf`)
+▸ **deserializeVerificationAddEthAddressBody**(`protobuf`): HubResult<VerificationAddEthAddressBody\>
 
 #### Parameters
 
@@ -292,11 +368,15 @@ ___
 | :------ | :------ |
 | `protobuf` | [`VerificationAddEthAddressBody`](protobufs.md#verificationaddethaddressbody) |
 
+#### Returns
+
+HubResult<VerificationAddEthAddressBody\>
+
 ___
 
 ### deserializeVerificationRemoveBody
 
-▸ **deserializeVerificationRemoveBody**(`protobuf`)
+▸ **deserializeVerificationRemoveBody**(`protobuf`): HubResult<VerificationRemoveBody\>
 
 #### Parameters
 
@@ -304,11 +384,15 @@ ___
 | :------ | :------ |
 | `protobuf` | [`VerificationRemoveBody`](protobufs.md#verificationremovebody) |
 
+#### Returns
+
+HubResult<VerificationRemoveBody\>
+
 ___
 
 ### serializeBlockHash
 
-▸ **serializeBlockHash**(`hash`)
+▸ **serializeBlockHash**(`hash`): HubResult<Uint8Array\>
 
 Serializes a block hash from a hex string to byte array.
 
@@ -318,11 +402,15 @@ Serializes a block hash from a hex string to byte array.
 | :------ | :------ |
 | `hash` | `string` |
 
+#### Returns
+
+HubResult<Uint8Array\>
+
 ___
 
 ### serializeCastAddBody
 
-▸ **serializeCastAddBody**(`body`)
+▸ **serializeCastAddBody**(`body`): HubResult<CastAddBody\>
 
 #### Parameters
 
@@ -330,11 +418,15 @@ ___
 | :------ | :------ |
 | `body` | [`CastAddBody`](types.md#castaddbody) |
 
+#### Returns
+
+HubResult<CastAddBody\>
+
 ___
 
 ### serializeCastId
 
-▸ **serializeCastId**(`castId`)
+▸ **serializeCastId**(`castId`): HubResult<CastId\>
 
 #### Parameters
 
@@ -342,11 +434,15 @@ ___
 | :------ | :------ |
 | `castId` | [`CastId`](types.md#castid) |
 
+#### Returns
+
+HubResult<CastId\>
+
 ___
 
 ### serializeCastRemoveBody
 
-▸ **serializeCastRemoveBody**(`body`)
+▸ **serializeCastRemoveBody**(`body`): HubResult<CastRemoveBody\>
 
 #### Parameters
 
@@ -354,11 +450,15 @@ ___
 | :------ | :------ |
 | `body` | [`CastRemoveBody`](types.md#castremovebody) |
 
+#### Returns
+
+HubResult<CastRemoveBody\>
+
 ___
 
 ### serializeEd25519PublicKey
 
-▸ **serializeEd25519PublicKey**(`publicKey`)
+▸ **serializeEd25519PublicKey**(`publicKey`): HubResult<Uint8Array\>
 
 #### Parameters
 
@@ -366,11 +466,15 @@ ___
 | :------ | :------ |
 | `publicKey` | `string` |
 
+#### Returns
+
+HubResult<Uint8Array\>
+
 ___
 
 ### serializeEip712Signature
 
-▸ **serializeEip712Signature**(`hash`)
+▸ **serializeEip712Signature**(`hash`): HubResult<Uint8Array\>
 
 Serializes an EIP-712 from a hex string to byte array.
 
@@ -380,11 +484,15 @@ Serializes an EIP-712 from a hex string to byte array.
 | :------ | :------ |
 | `hash` | `string` |
 
+#### Returns
+
+HubResult<Uint8Array\>
+
 ___
 
 ### serializeEthAddress
 
-▸ **serializeEthAddress**(`ethAddress`)
+▸ **serializeEthAddress**(`ethAddress`): HubResult<Uint8Array\>
 
 #### Parameters
 
@@ -392,11 +500,15 @@ ___
 | :------ | :------ |
 | `ethAddress` | `string` |
 
+#### Returns
+
+HubResult<Uint8Array\>
+
 ___
 
 ### serializeFname
 
-▸ **serializeFname**(`fname`)
+▸ **serializeFname**(`fname`): HubResult<Uint8Array\>
 
 #### Parameters
 
@@ -404,11 +516,15 @@ ___
 | :------ | :------ |
 | `fname` | `string` |
 
+#### Returns
+
+HubResult<Uint8Array\>
+
 ___
 
 ### serializeMessageHash
 
-▸ **serializeMessageHash**(`hash`)
+▸ **serializeMessageHash**(`hash`): HubResult<Uint8Array\>
 
 #### Parameters
 
@@ -416,11 +532,15 @@ ___
 | :------ | :------ |
 | `hash` | `string` |
 
+#### Returns
+
+HubResult<Uint8Array\>
+
 ___
 
 ### serializeReactionBody
 
-▸ **serializeReactionBody**(`body`)
+▸ **serializeReactionBody**(`body`): HubResult<ReactionBody\>
 
 #### Parameters
 
@@ -428,11 +548,15 @@ ___
 | :------ | :------ |
 | `body` | [`ReactionBody`](types.md#reactionbody) |
 
+#### Returns
+
+HubResult<ReactionBody\>
+
 ___
 
 ### serializeSignerBody
 
-▸ **serializeSignerBody**(`body`)
+▸ **serializeSignerBody**(`body`): HubResult<SignerBody\>
 
 #### Parameters
 
@@ -440,11 +564,15 @@ ___
 | :------ | :------ |
 | `body` | [`SignerBody`](types.md#signerbody) |
 
+#### Returns
+
+HubResult<SignerBody\>
+
 ___
 
 ### serializeUserDataBody
 
-▸ **serializeUserDataBody**(`body`)
+▸ **serializeUserDataBody**(`body`): HubResult<UserDataBody\>
 
 #### Parameters
 
@@ -452,11 +580,15 @@ ___
 | :------ | :------ |
 | `body` | [`UserDataBody`](types.md#userdatabody) |
 
+#### Returns
+
+HubResult<UserDataBody\>
+
 ___
 
 ### serializeVerificationAddEthAddressBody
 
-▸ **serializeVerificationAddEthAddressBody**(`body`)
+▸ **serializeVerificationAddEthAddressBody**(`body`): HubResult<VerificationAddEthAddressBody\>
 
 #### Parameters
 
@@ -464,14 +596,22 @@ ___
 | :------ | :------ |
 | `body` | [`VerificationAddEthAddressBody`](types.md#verificationaddethaddressbody) |
 
+#### Returns
+
+HubResult<VerificationAddEthAddressBody\>
+
 ___
 
 ### serializeVerificationRemoveBody
 
-▸ **serializeVerificationRemoveBody**(`body`)
+▸ **serializeVerificationRemoveBody**(`body`): HubResult<VerificationRemoveBody\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `body` | [`VerificationRemoveBody`](types.md#verificationremovebody) |
+
+#### Returns
+
+HubResult<VerificationRemoveBody\>

@@ -51,7 +51,7 @@
 
 ### makeCastAdd
 
-▸ **makeCastAdd**(`bodyJson`, `dataOptions`, `signer`)
+▸ **makeCastAdd**(`bodyJson`, `dataOptions`, `signer`): HubAsyncResult<Readonly<Object\>\>
 
 Make a message to add a cast
 
@@ -93,11 +93,15 @@ await client.submitMessage(cast._unsafeUnwrap());
 | `dataOptions` | `MessageDataOptions` |
 | `signer` | `Ed25519Signer` |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>\>
+
 ___
 
 ### makeCastRemove
 
-▸ **makeCastRemove**(`bodyJson`, `dataOptions`, `signer`)
+▸ **makeCastRemove**(`bodyJson`, `dataOptions`, `signer`): HubAsyncResult<Readonly<Object\>\>
 
 Make a message to remove a cast
 
@@ -140,11 +144,15 @@ await client.submitMessage(castRemove._unsafeUnwrap());
 | `dataOptions` | `MessageDataOptions` |
 | `signer` | `Ed25519Signer` |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>\>
+
 ___
 
 ### makeMessageHash
 
-▸ **makeMessageHash**(`messageData`)
+▸ **makeMessageHash**(`messageData`): HubAsyncResult<string\>
 
 TODO DOCS: description
 
@@ -167,11 +175,17 @@ await client.submitMessage(message)
 | :------ | :------ |
 | `messageData` | [`MessageData`](modules/types.md#messagedata)<[`MessageBody`](modules/types.md#messagebody), [`MessageType`](enums/protobufs.MessageType.md)\> |
 
+#### Returns
+
+HubAsyncResult<string\>
+
+...
+
 ___
 
 ### makeMessageWithSignature
 
-▸ **makeMessageWithSignature**(`messageData`, `signerOptions`, `signature`)
+▸ **makeMessageWithSignature**(`messageData`, `signerOptions`, `signature`): HubAsyncResult<Readonly<Object\>\>
 
 TODO DOCS: description
 
@@ -196,11 +210,17 @@ await client.submitMessage(message)
 | `signerOptions` | `MessageSignerOptions` |
 | `signature` | `string` |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>\>
+
+...
+
 ___
 
 ### makeReactionAdd
 
-▸ **makeReactionAdd**(`bodyJson`, `dataOptions`, `signer`)
+▸ **makeReactionAdd**(`bodyJson`, `dataOptions`, `signer`): HubAsyncResult<Readonly<Object\>\>
 
 Make a message to react a cast (like or recast)
 
@@ -248,11 +268,15 @@ await client.submitMessage(like._unsafeUnwrap());
 | `dataOptions` | `MessageDataOptions` |
 | `signer` | `Ed25519Signer` |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>\>
+
 ___
 
 ### makeReactionRemove
 
-▸ **makeReactionRemove**(`bodyJson`, `dataOptions`, `signer`)
+▸ **makeReactionRemove**(`bodyJson`, `dataOptions`, `signer`): HubAsyncResult<Readonly<Object\>\>
 
 Make a message to undo a reaction to a cast (unlike or undo recast)
 
@@ -300,11 +324,15 @@ await client.submitMessage(unlike._unsafeUnwrap());
 | `dataOptions` | `MessageDataOptions` |
 | `signer` | `Ed25519Signer` |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>\>
+
 ___
 
 ### makeSignerAdd
 
-▸ **makeSignerAdd**(`bodyJson`, `dataOptions`, `signer`)
+▸ **makeSignerAdd**(`bodyJson`, `dataOptions`, `signer`): HubAsyncResult<Readonly<Object\>\>
 
 Make a message to add an EdDSA signer
 
@@ -349,11 +377,15 @@ await client.submitMessage(signerAdd._unsafeUnwrap());
 | `dataOptions` | `MessageDataOptions` |
 | `signer` | `Eip712Signer` |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>\>
+
 ___
 
 ### makeSignerRemove
 
-▸ **makeSignerRemove**(`bodyJson`, `dataOptions`, `signer`)
+▸ **makeSignerRemove**(`bodyJson`, `dataOptions`, `signer`): HubAsyncResult<Readonly<Object\>\>
 
 Make a message to remove an EdDSA signer
 
@@ -398,11 +430,15 @@ await client.submitMessage(signerRemove._unsafeUnwrap());
 | `dataOptions` | `MessageDataOptions` |
 | `signer` | `Eip712Signer` |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>\>
+
 ___
 
 ### makeUserDataAdd
 
-▸ **makeUserDataAdd**(`bodyJson`, `dataOptions`, `signer`)
+▸ **makeUserDataAdd**(`bodyJson`, `dataOptions`, `signer`): HubAsyncResult<Readonly<Object\>\>
 
 Make a message to set user data (pfp, bio, display name, etc)
 
@@ -448,11 +484,15 @@ await client.submitMessage(userDataPfpAdd._unsafeUnwrap());
 | `dataOptions` | `MessageDataOptions` |
 | `signer` | `Ed25519Signer` |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>\>
+
 ___
 
 ### makeVerificationAddEthAddress
 
-▸ **makeVerificationAddEthAddress**(`bodyJson`, `dataOptions`, `signer`)
+▸ **makeVerificationAddEthAddress**(`bodyJson`, `dataOptions`, `signer`): HubAsyncResult<Readonly<Object\>\>
 
 TODO DOCS: description
 
@@ -524,11 +564,15 @@ await client.submitMessage(verificationMessage._unsafeUnwrap());
 | `dataOptions` | `MessageDataOptions` |
 | `signer` | `Ed25519Signer` |
 
+#### Returns
+
+HubAsyncResult<Readonly<Object\>\>
+
 ___
 
 ### makeVerificationRemove
 
-▸ **makeVerificationRemove**(`bodyJson`, `dataOptions`, `signer`)
+▸ **makeVerificationRemove**(`bodyJson`, `dataOptions`, `signer`): HubAsyncResult<Readonly<Object\>\>
 
 TODO DOCS: description
 
@@ -590,3 +634,7 @@ await client.submitMessage(verificationRemoveMessage._unsafeUnwrap());
 | `bodyJson` | [`VerificationRemoveBody`](modules/types.md#verificationremovebody) |
 | `dataOptions` | `MessageDataOptions` |
 | `signer` | `Ed25519Signer` |
+
+#### Returns
+
+HubAsyncResult<Readonly<Object\>\>
