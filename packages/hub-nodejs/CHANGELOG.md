@@ -1,4 +1,18 @@
-# @farcaster/js
+# @farcaster/hub-nodejs
+
+## 0.4.0
+
+### Minor Changes
+
+- a74ecb2: rename package from farcaster/js to farcaster/hub-nodejs
+
+### Patch Changes
+
+- Updated dependencies [0a3b77c]
+- Updated dependencies [e7602bd]
+- Updated dependencies [68230b7]
+  - @farcaster/protobufs@0.1.8
+  - @farcaster/utils@0.2.11
 
 ## 0.3.0
 
@@ -119,7 +133,7 @@
 ### Patch Changes
 
 - fix: switch to 160-bit hash
-- c20daed: feat: add support for /subscribe gRPC method in @farcaster/js
+- c20daed: feat: add support for /subscribe gRPC method in @farcaster/hub-nodejs
 - 3b84ad2: chore: refactor functions in packages/\* to return HubResult
 - Updated dependencies
 - Updated dependencies [c20daed]
